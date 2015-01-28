@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>43380</SKU><StandardProductID><Type>ISBN</Type><Value>9788817870962</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>43381</SKU><StandardProductID><Type>ISBN</Type><Value>9788804516378</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>43382</SKU><StandardProductID><Type>ISBN</Type><Value>9788842915447</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>43383</SKU><StandardProductID><Type>ISBN</Type><Value>9788830428249</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7433597094
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2014-01-13T20:01:02Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    a0d51902-5b4b-461d-84f5-d78da29769d0
+            ResponseHeaderMetadata: RequestId: a0d51902-5b4b-461d-84f5-d78da29769d0, ResponseContext: uRA54Yvl/ACX9Va1lCaU9e9gANABklUAcm0bqbtlhj6JCVjkHM//Bw81SNuHpGgLxNcbYDOW4u1N rpvHBQn7fM2MQrFyXWeB,fH5WKbh9iZZ+4VBl2SlXpU6lAy0BwF3Cj301Nu7lZmgIT8fe0Umtd1J/vZA2hQPBvoJZ2MFtpWqs E1w75xvokQ==, Timestamp: 2014-01-13T20:01:01.054Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>43380</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>43381</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>43382</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>43383</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7433597806
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2014-01-13T20:01:08Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    b255d796-5ee5-4f21-9fcd-dbfaab87b460
+            ResponseHeaderMetadata: RequestId: b255d796-5ee5-4f21-9fcd-dbfaab87b460, ResponseContext: 9+nu2hmCzE/raiHb3Y8Exys8BJhhgVneiXszPT3nBJXUsX+HmpQ6LUqUPrRSTEh0aW4s6YwenZ0w 43WL33+BdgKjvngiGGVn,bL0C2D8DUoPOl55U3x8wIUIEfnfJ/IBRFZfT3B6GsKkDkv/bwt1XYxjW3TL6XZSj8BuFGZx22XtU ncSvIMbh1g==, Timestamp: 2014-01-13T20:01:07.740Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>43380</SKU><StandardPrice currency="EUR">9.50</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>43381</SKU><StandardPrice currency="EUR">4.20</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>43382</SKU><StandardPrice currency="EUR">9.30</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>43383</SKU><StandardPrice currency="EUR">9.80</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7433598720
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2014-01-13T20:01:15Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    7728cfa7-eb2b-4161-9267-ffa3174e3f13
+            ResponseHeaderMetadata: RequestId: 7728cfa7-eb2b-4161-9267-ffa3174e3f13, ResponseContext: xStyffJSunysdV+jI7a9IqVWfupTtNAUDLKE1PZvD4ZizRmwukByYT1mv+6Jf9CrZ2jx/HU7+NHQ qCHEltkOTc30HGq6SU9j,KONnOjpeDU1YMIMJHvvJ8Oizw3MmwhQRBXgd1ZiNQfL9w1UHVPXiarhwCKYiO99Yji1ajma9LJx8 jaT6Cqr0rA==, Timestamp: 2014-01-13T20:01:13.885Z

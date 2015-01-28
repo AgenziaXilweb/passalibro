@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>38097</SKU><StandardProductID><Type>ISBN</Type><Value>9788830432963</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>38096</SKU><StandardProductID><Type>ISBN</Type><Value>9788854129672</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>38095</SKU><StandardProductID><Type>ISBN</Type><Value>9788804603238</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>38094</SKU><StandardProductID><Type>ISBN</Type><Value>9788831705875</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Product><SKU>38093</SKU><StandardProductID><Type>ISBN</Type><Value>9788831799577</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Product><SKU>38090</SKU><StandardProductID><Type>ISBN</Type><Value>9788804370840</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Product><SKU>38091</SKU><StandardProductID><Type>ISBN</Type><Value>9788817050913</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Product><SKU>38092</SKU><StandardProductID><Type>ISBN</Type><Value>9788842492283</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Product><SKU>38087</SKU><StandardProductID><Type>ISBN</Type><Value>9781405826884</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Product><SKU>38088</SKU><StandardProductID><Type>ISBN</Type><Value>9788842672456</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Product><SKU>38089</SKU><StandardProductID><Type>ISBN</Type><Value>9788876154119</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6558745610
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-10-12T16:00:57Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    fc3d718c-473d-441b-82a7-b6e6f2b1e364
+            ResponseHeaderMetadata: RequestId: fc3d718c-473d-441b-82a7-b6e6f2b1e364, ResponseContext: hD/2fMZBtJMTOR5jfrSvUemVttP1eb/hhGO3h9JVmXrrtiM0h1AlROEbupKeoz7P2Nf2lcCsCpz7 V59r7ydnYUVRjrDKNIgx,qL+1mB7FQE0uLW479QSAHOF7C3LRNLC2oJJoaXUWTzowa/lsNewO0h1rqiCilOqJb9KFY4lBgBuX jfcCkmd12w==, Timestamp: 2013-10-12T16:00:57.155Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>38097</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>38096</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>38095</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>38093</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Inventory><SKU>38090</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Inventory><SKU>38091</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Inventory><SKU>38094</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Inventory><SKU>38092</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Inventory><SKU>38087</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Inventory><SKU>38088</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Inventory><SKU>38089</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6558747772
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-10-12T16:01:07Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    ec77e930-a475-47cc-9c5a-ab8bff715808
+            ResponseHeaderMetadata: RequestId: ec77e930-a475-47cc-9c5a-ab8bff715808, ResponseContext: t4+tSmvWHnJhi4TpcktYlxr2KFEolx6PYP+V1pKttQzUXGOf/3cll+FbartgtvxOEW5rqwaQ8SNp i+gsgrTzchG6/IpOLcYS,lcwZfFa/0Q7x4Syq7nyb8UkV/YycHdv4X6Qcjd2ElRcl1BN/nZ66/Yx2DLvKlB3+9DvOd9RqrhQK vGtKe5uM4Q==, Timestamp: 2013-10-12T16:01:07.741Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>38097</SKU><StandardPrice currency="EUR">9.30</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>38096</SKU><StandardPrice currency="EUR">4.95</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>38095</SKU><StandardPrice currency="EUR">10.00</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>38092</SKU><StandardPrice currency="EUR">12.00</StandardPrice></Price></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Price><SKU>38090</SKU><StandardPrice currency="EUR">4.20</StandardPrice></Price></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Price><SKU>38094</SKU><StandardPrice currency="EUR">6.00</StandardPrice></Price></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Price><SKU>38093</SKU><StandardPrice currency="EUR">9.25</StandardPrice></Price></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Price><SKU>38091</SKU><StandardPrice currency="EUR">9.95</StandardPrice></Price></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Price><SKU>38087</SKU><StandardPrice currency="EUR">16.68</StandardPrice></Price></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Price><SKU>38088</SKU><StandardPrice currency="EUR">15.87</StandardPrice></Price></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Price><SKU>38089</SKU><StandardPrice currency="EUR">7.74</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6558748934
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-10-12T16:01:18Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    2a15d3eb-74a2-4ea2-bb91-ddbbd28e26ef
+            ResponseHeaderMetadata: RequestId: 2a15d3eb-74a2-4ea2-bb91-ddbbd28e26ef, ResponseContext: t4+tSmvWHnJhi4TpcktYlxr2KFEolx6PYP+V1pKttQzUXGOf/3cll+FbartgtvxOEW5rqwaQ8SNp i+gsgrTzchG6/IpOLcYS,BFbdLByODV7tprWOSkJ/aF+QUxVhLAGokDVCbvA9ARBfbp5EYhMrey8HBQpz6bgJIMHINGsNFjVA LPVgIn7Fkg==, Timestamp: 2013-10-12T16:01:18.413Z

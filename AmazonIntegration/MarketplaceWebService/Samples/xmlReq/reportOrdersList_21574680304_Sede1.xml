@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>M_GHIRONDASR_1354009</MerchantIdentifier>
+</Header>
+<MessageType>OrderReport</MessageType>
+<Message>
+<MessageID>1</MessageID>
+<OrderReport>
+<AmazonOrderID>171-7831815-6657110</AmazonOrderID>
+<AmazonSessionID>171-7831815-6657110</AmazonSessionID>
+<OrderDate>2013-06-07T14:24:56+00:00</OrderDate>
+<OrderPostedDate>2013-06-07T14:24:56+00:00</OrderPostedDate>
+<BillingData>
+<BuyerEmailAddress>zjk0w56nl8r2st8@marketplace.amazon.it</BuyerEmailAddress>
+<BuyerName>bianconi marino</BuyerName>
+<BuyerPhoneNumber>0457681346</BuyerPhoneNumber>
+<Address>
+<Name>bianconi marino</Name>
+<AddressFieldOne>viale europa,47</AddressFieldOne>
+<City>monteforte d'alpone</City>
+<StateOrRegion>verona</StateOrRegion>
+<PostalCode>37032</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>0457681346</PhoneNumber>
+</Address>
+</BillingData>
+<FulfillmentData>
+<FulfillmentMethod>Ship</FulfillmentMethod>
+<FulfillmentServiceLevel>Standard</FulfillmentServiceLevel>
+<Address>
+<Name>bianconi marino</Name>
+<AddressFieldOne>viale europa,47</AddressFieldOne>
+<City>monteforte d'alpone</City>
+<StateOrRegion>verona</StateOrRegion>
+<PostalCode>37032</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>0457681346</PhoneNumber>
+</Address>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>46187636774915</AmazonOrderItemCode>
+<SKU>5011</SKU>
+<Title>Fotografia digitale</Title>
+<Quantity>1</Quantity>
+<ProductTaxCode>PTC_PRODUCT_TAXABLE_A</ProductTaxCode>
+<ItemPrice>
+<Component>
+<Type>Principal</Type>
+<Amount currency="EUR">10.00</Amount>
+</Component>
+<Component>
+<Type>Shipping</Type>
+<Amount currency="EUR">2.40</Amount>
+</Component>
+<Component>
+<Type>Tax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+<Component>
+<Type>ShippingTax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+</ItemPrice>
+<ItemFees>
+<Fee>
+<Type>Commission</Type>
+<Amount currency="EUR">-1.86</Amount>
+</Fee>
+</ItemFees>
+</Item>
+</OrderReport>
+</Message>
+</AmazonEnvelope>

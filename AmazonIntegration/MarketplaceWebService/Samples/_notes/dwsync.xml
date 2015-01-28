@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="amazonFeedsCreation.sh" server="www1.passalibro.com" local="130131789600000000" remote="130131789600000000" />
+<file name="amazonFeedsResultStatus.sh" server="www1.passalibro.com" local="130131790200000000" remote="130131790200000000" />
+<file name="amazonFeedsUpdateQta.sh" server="www1.passalibro.com" local="130126608600000000" remote="130126608600000000" />
+<file name="amazonOrdersCreation.sh" server="www1.passalibro.com" local="130147557600000000" remote="130147557600000000" />
+<file name="CancelFeedSubmissionsSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="CancelReportRequestsSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetFeedSubmissionCountSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetFeedSubmissionListByNextTokenSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetFeedSubmissionListSample.php" server="www1.passalibro.com" local="130127710200000000" remote="130127710200000000" />
+<file name="GetFeedSubmissionResultSample.php" server="www1.passalibro.com" local="130142399400000000" remote="130142399400000000" />
+<file name="GetReportCountSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportListByNextTokenSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportListSample.php" server="www1.passalibro.com" local="130150962600000000" remote="130150962600000000" />
+<file name="GetReportRequestCountSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportRequestListByNextTokenSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportRequestListSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportSample.php" server="www1.passalibro.com" local="130154425800000000" remote="130154425800000000" />
+<file name="GetReportScheduleCountSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportScheduleListByNextTokenSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="GetReportScheduleListSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="ManageReportScheduleSample.php" server="www1.passalibro.com" local="130107777600000000" remote="130107777600000000" />
+<file name="RequestReportSample.php" server="www1.passalibro.com" local="130107778200000000" remote="130107778200000000" />
+<file name="SubmitFeedSample.php" server="www1.passalibro.com" local="130130224200000000" remote="130130224200000000" />
+<file name="UpdateReportAcknowledgementsSample.php" server="www1.passalibro.com" local="130147558200000000" remote="130147558200000000" />
+</dwsync>

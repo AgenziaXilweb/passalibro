@@ -1,0 +1,1 @@
+mysql -h '172.19.0.30' -u passalibroweb -p'passa20libro12' passalibroweb -e "CALL allinea_negativi()"

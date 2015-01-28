@@ -1,0 +1,52 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>32617</SKU><StandardProductID><Type>ISBN</Type><Value>9788854100824</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>32616</SKU><StandardProductID><Type>ISBN</Type><Value>9788807812064</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>32615</SKU><StandardProductID><Type>ISBN</Type><Value>9788807420993</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>32614</SKU><StandardProductID><Type>ISBN</Type><Value>9788807816604</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Product><SKU>32608</SKU><StandardProductID><Type>ISBN</Type><Value>9788807014802</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Product><SKU>32609</SKU><StandardProductID><Type>ISBN</Type><Value>9788807813313</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Product><SKU>32610</SKU><StandardProductID><Type>ISBN</Type><Value>9788807814327</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Product><SKU>32611</SKU><StandardProductID><Type>ISBN</Type><Value>9788811599234</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Product><SKU>32612</SKU><StandardProductID><Type>ISBN</Type><Value>9788811598091</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Product><SKU>32613</SKU><StandardProductID><Type>ISBN</Type><Value>9788807016011</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Product><SKU>32607</SKU><StandardProductID><Type>ISBN</Type><Value>9788807013577</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Product><SKU>32606</SKU><StandardProductID><Type>ISBN</Type><Value>9788807810008</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Product><SKU>32618</SKU><StandardProductID><Type>ISBN</Type><Value>9788807018688</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Product><SKU>32619</SKU><StandardProductID><Type>ISBN</Type><Value>9788850221660</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>15</MessageID><OperationType>Update</OperationType><Product><SKU>32620</SKU><StandardProductID><Type>ISBN</Type><Value>9788845414480</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>16</MessageID><OperationType>Update</OperationType><Product><SKU>32621</SKU><StandardProductID><Type>ISBN</Type><Value>9788880891505</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>17</MessageID><OperationType>Update</OperationType><Product><SKU>32622</SKU><StandardProductID><Type>ISBN</Type><Value>9788842907817</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6466322512
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-10-02T10:14:38Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    813ca612-1bac-4729-9df6-f09a47559fb5
+            ResponseHeaderMetadata: RequestId: 813ca612-1bac-4729-9df6-f09a47559fb5, ResponseContext: zPjMLZvuTxkwx6aIRkO6wf8hWH+q55rjeYU5oetiIjaRR9jcr2DwTBSliNAwflcFlBVrzv4iNB43 jjVlNtkeYdbit+0tJOuP,6Xn3RZExo06JO96YDmk6ACEFLEYpWU2vBYiUDAOpE5nlCjqyb1P+Hr7NHyqOwSCnl9LhcVPyZoA=, Timestamp: 2013-10-02T10:14:38.124Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>32616</SKU><StandardPrice currency="EUR">3.75</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>32615</SKU><StandardPrice currency="EUR">7.25</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>32614</SKU><StandardPrice currency="EUR">4.25</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>32613</SKU><StandardPrice currency="EUR">8.27</StandardPrice></Price></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Price><SKU>32608</SKU><StandardPrice currency="EUR">7.75</StandardPrice></Price></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Price><SKU>32609</SKU><StandardPrice currency="EUR">4.00</StandardPrice></Price></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Price><SKU>32610</SKU><StandardPrice currency="EUR">4.00</StandardPrice></Price></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Price><SKU>32611</SKU><StandardPrice currency="EUR">6.46</StandardPrice></Price></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Price><SKU>32612</SKU><StandardPrice currency="EUR">6.20</StandardPrice></Price></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Price><SKU>32607</SKU><StandardPrice currency="EUR">7.75</StandardPrice></Price></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Price><SKU>32606</SKU><StandardPrice currency="EUR">4.00</StandardPrice></Price></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Price><SKU>32617</SKU><StandardPrice currency="EUR">4.45</StandardPrice></Price></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Price><SKU>32618</SKU><StandardPrice currency="EUR">10.00</StandardPrice></Price></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Price><SKU>32619</SKU><StandardPrice currency="EUR">4.45</StandardPrice></Price></Message><Message><MessageID>15</MessageID><OperationType>Update</OperationType><Price><SKU>32620</SKU><StandardPrice currency="EUR">3.50</StandardPrice></Price></Message><Message><MessageID>16</MessageID><OperationType>Update</OperationType><Price><SKU>32621</SKU><StandardPrice currency="EUR">4.65</StandardPrice></Price></Message><Message><MessageID>17</MessageID><OperationType>Update</OperationType><Price><SKU>32622</SKU><StandardPrice currency="EUR">6.20</StandardPrice></Price></Message><Message><MessageID>18</MessageID><OperationType>Update</OperationType><Price><SKU>30855</SKU><StandardPrice currency="EUR">16.98</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6466323554
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-10-02T10:14:58Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    961c7404-237e-4f67-bd79-a22376ba7fe7
+            ResponseHeaderMetadata: RequestId: 961c7404-237e-4f67-bd79-a22376ba7fe7, ResponseContext: wTeNctiT/Dof+hGMfRt5Cqvt8MYCarwSv6tXAcl1JEFQEYFY5s5fDiilR4tjtqblG28oDuELWPC6 xfdEtlJbtBjUS0V5zVlZ,a0BwfN1G7ZED4uXQIrveynSsIzgs/QtnElIDcQFL8gBnfjA3TNADPZ4zv9zuMhQPUTIchgeYdRA=, Timestamp: 2013-10-02T10:14:58.698Z

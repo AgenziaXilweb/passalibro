@@ -1,0 +1,26 @@
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>31177</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>30223</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>21633</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>32496</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Inventory><SKU>12326</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Inventory><SKU>32020</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Inventory><SKU>32341</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Inventory><SKU>13582</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Inventory><SKU>30908</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Inventory><SKU>32394</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Inventory><SKU>18529</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Inventory><SKU>21483</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Inventory><SKU>12309</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Inventory><SKU>19557</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>15</MessageID><OperationType>Update</OperationType><Inventory><SKU>22641</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>16</MessageID><OperationType>Update</OperationType><Inventory><SKU>24617</SKU><Quantity>0</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6445165394
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-09-29T21:58:17Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    234181ed-6292-4586-bd18-de7d86dbd158
+            ResponseHeaderMetadata: RequestId: 234181ed-6292-4586-bd18-de7d86dbd158, ResponseContext: hD/2fMZBtJMTOR5jfrSvUemVttP1eb/hhGO3h9JVmXrrtiM0h1AlROEbupKeoz7P2Nf2lcCsCpz7 V59r7ydnYUVRjrDKNIgx,791MK8x6+TjH7jx+vghoirphwx8W0s4SNS7NLEsSaLQ9fILA9ba78LC3+bNI5ftvVYuZEOAy1Qo=, Timestamp: 2013-09-29T21:58:17.883Z

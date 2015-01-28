@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CancelFeedSubmissionsResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="CancelReportRequestsResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="ErrorResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetFeedSubmissionCountResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetFeedSubmissionListByNextTokenResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetFeedSubmissionListResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetFeedSubmissionResultResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetReportCountResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetReportListByNextTokenResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetReportListResponse.xml" server="www1.passalibro.com" local="130107775200000000" remote="130107775200000000" />
+<file name="GetReportRequestCountResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportRequestListByNextTokenResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportRequestListResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportScheduleCountResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportScheduleListByNextTokenResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="GetReportScheduleListResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="ManageReportScheduleResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="RequestReportResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="SubmitFeedResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+<file name="UpdateReportAcknowledgementsResponse.xml" server="www1.passalibro.com" local="130107775800000000" remote="130107775800000000" />
+</dwsync>

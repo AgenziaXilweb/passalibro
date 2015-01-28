@@ -1,0 +1,3736 @@
+290
+Nessun nuovo inserimento!!290
+Nessun nuovo inserimento!!290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:49.446Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#10 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:50.433Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:51.366Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:52.333Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:56.523Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:57.493Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:58.371Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:16:59.335Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:00.310Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:01.207Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:02.144Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:03.179Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:04.193Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:05.117Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:06.141Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:07.498Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:08.443Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:12.091Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:13.008Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:13.958Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:14.910Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:15.894Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:16.811Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:17.793Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:18.741Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:19.646Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:20.600Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:21.568Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:22.604Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:23.437Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:24.340Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:25.227Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:26.167Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:27.171Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:28.048Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:28.978Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:29.889Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:30.912Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:31.746Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:32.720Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:33.556Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:34.464Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:35.413Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:36.519Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:37.405Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+Nessun nuovo inserimento!!290
+Nessun nuovo inserimento!!290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:38.335Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:39.221Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:40.200Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:41.134Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:42.156Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:43.193Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:45.834Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:46.854Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:47.725Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:48.647Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:49.560Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:50.447Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:51.377Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:52.387Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+Nessun nuovo inserimento!!290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:53.330Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:54.215Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:55.216Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:56.161Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:57.102Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:58.007Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:58.905Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:17:59.886Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:00.670Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:01.710Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:02.714Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:03.671Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:04.729Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:05.626Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:06.751Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:07.755Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:08.610Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:09.614Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:10.568Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:11.581Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:12.559Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:13.425Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:14.403Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:15.429Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:16.324Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:17.337Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:18.178Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:19.140Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:19.965Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:20.954Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:21.863Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:22.804Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:23.734Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:24.614Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:25.618Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:26.637Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:27.538Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:30.698Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:31.574Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:32.486Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:33.531Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:34.466Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:35.525Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:36.492Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:37.427Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:38.343Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:39.185Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:40.236Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:41.034Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:42.007Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:42.938Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:43.847Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:44.779Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:45.731Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:46.746Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:47.626Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:48.983Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:50.061Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:51.153Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:52.195Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (6) {
+    ["ShortMessage"]=>
+    string(33) "Richiesta di codifica non valida."
+    ["LongMessage"]=>
+    string(119) "Richiesta di codifica non valida. Utilizza codifica utf-8 ed elimina codifiche non utf-8 dal contenuto della richiesta."
+    ["ErrorCode"]=>
+    string(5) "20400"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(17) "AddFixedPriceItem"
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:53.195Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:54.176Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:55.341Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:56.297Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:57.358Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:58.333Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:18:59.360Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:00.462Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:01.490Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:02.452Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:03.476Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:04.359Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (6) {
+    ["ShortMessage"]=>
+    string(22) "Errore di analisi XML."
+    ["LongMessage"]=>
+    string(152) "Testo di errore XML: "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."."
+    ["ErrorCode"]=>
+    string(1) "5"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorParameters"]=>
+    object(SimpleXMLElement)#20 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["ParamID"]=>
+        string(1) "0"
+      }
+      ["Value"]=>
+      string(128) "; nested exception is: 
+	org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference."
+    }
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:05.458Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:06.461Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:07.523Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:08.490Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:09.602Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:10.596Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:11.701Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:12.656Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:13.708Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:14.845Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:15.870Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#19 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:16.897Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#17 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#3 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:17.948Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#9 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#2 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:19.002Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#19 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#13 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:20.057Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#3 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#5 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:21.081Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#2 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#15 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:22.132Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#13 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#7 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:23.209Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#5 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#17 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:24.212Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#15 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290
+object(SimpleXMLElement)#9 (5) {
+  ["Timestamp"]=>
+  string(24) "2014-05-31T19:19:25.345Z"
+  ["Ack"]=>
+  string(7) "Failure"
+  ["Errors"]=>
+  object(SimpleXMLElement)#7 (5) {
+    ["ShortMessage"]=>
+    string(56) "È stato raggiunto il limite di utilizzo della funzione."
+    ["LongMessage"]=>
+    string(161) "L'applicazione ha superato il limite di utilizzo in questa funzione. Richiama la funzione all'interno di GetAPIAccessRules per vederne le condizioni di utilizzo."
+    ["ErrorCode"]=>
+    string(3) "518"
+    ["SeverityCode"]=>
+    string(5) "Error"
+    ["ErrorClassification"]=>
+    string(12) "RequestError"
+  }
+  ["Version"]=>
+  string(3) "873"
+  ["Build"]=>
+  string(25) "E873_UNI_API5_16856144_R1"
+}
+Risposta da eBay: Failure290

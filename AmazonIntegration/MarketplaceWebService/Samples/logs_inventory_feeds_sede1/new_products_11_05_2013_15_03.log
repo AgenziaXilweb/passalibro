@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>39519</SKU><StandardProductID><Type>ISBN</Type><Value>9788809764149</Value></StandardProductID></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>39520</SKU><StandardProductID><Type>ISBN</Type><Value>9788817052733</Value></StandardProductID></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>39521</SKU><StandardProductID><Type>ISBN</Type><Value>9788809745469</Value></StandardProductID></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6770486248
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-11-05T14:02:50Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    e559390e-8b24-4365-bacb-81911fd79157
+            ResponseHeaderMetadata: RequestId: e559390e-8b24-4365-bacb-81911fd79157, ResponseContext: a7sIwLdtRYp/0An53hGVv0yHJdf/klqeBB3kAmlQ/RtTm3XCmSAFkT1cgqq22iHdDAOxcCNWqyI4 ebKEBod11y/DJuM1GgYx,ATQ3Ek1extMmQPFdLYpP92jKPYXrFoglMaQl+ZZii7u7zfjyt2BCpc1rFsOMCCiNQy4ZV6FthHMg e3/7tDBVvQ==, Timestamp: 2013-11-05T14:02:49.343Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>39519</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>39520</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>39521</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6770486900
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-11-05T14:03:01Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    b3042727-79ac-4453-a837-0ffcd1c3da0c
+            ResponseHeaderMetadata: RequestId: b3042727-79ac-4453-a837-0ffcd1c3da0c, ResponseContext: QXQzF6FntDYra2HoEspG1975d1lO3p08R8ChGQ0knYEzFChMRKPgz1PiDEPk9R11hbdiVBuiNzjF Rh4+3fQYSjsQ82wZ4Axe,AwgesrOHBt31DsNsAQiumFYRTSNS4TTRhosCzqWenJtoFByQWdHGEDpHck6MOquEYkt8F2SNd7t6 5FO1YCcekA==, Timestamp: 2013-11-05T14:03:00.820Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>39519</SKU><StandardPrice currency="EUR">14.90</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>39520</SKU><StandardPrice currency="EUR">18.50</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>39521</SKU><StandardPrice currency="EUR">9.90</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6770488668
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-11-05T14:03:13Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    567fb434-deed-4c6d-8625-c815de2ce019
+            ResponseHeaderMetadata: RequestId: 567fb434-deed-4c6d-8625-c815de2ce019, ResponseContext: y46aMfA485ENU6gSKoPHGT6iDVlhuBdW/wb/BAkVnPu8oP3ZLq9AtaN69ECrXZGFzKJTK9RU3jQr /bc4eRF6fVQFlb6WnYdD,+B5MpjzdTeZRPbjtfhLX7Fpp2jWq4sXARrYqWy+RxpXwjiBo2ZaVM8IKgnQpXnKQIedLhReRBuzi WVPPeKLEdw==, Timestamp: 2013-11-05T14:03:11.698Z

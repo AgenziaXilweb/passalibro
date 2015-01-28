@@ -1,0 +1,19 @@
+Service Response
+=============================================================================
+        GetReportResponse
+            GetReport                ContentMd5                1Kc1+vBJ9E1Lk9V17CBYZA==
+            ResponseMetadata
+                RequestId
+                    a2c71749-60a5-4694-9ed8-2c66b03404ab
+       Generate Orders into Orders tables, tmpweb2 and impegno passalibro.magsedi...
+Done!
+Service Response
+=============================================================================
+        UpdateReportAcknowledgementsResponse
+            UpdateReportAcknowledgementsResult
+                Count
+                    1
+            ResponseMetadata
+                RequestId
+                    25a207e3-e86f-45fa-b3d4-00d4c679fdb2
+            ResponseHeaderMetadata: RequestId: 25a207e3-e86f-45fa-b3d4-00d4c679fdb2, ResponseContext: xpA+a+KCVJ2emLBm239pkoL/FnzokeW8MFq2DenjOuqEM3IzDHGXitEmZo2Khbhkmy0mBmEQpLP/ DkpyMMpueWzsyBr1Ouq3,YkO1xffK7/95MvxBG1eDm/R0jyYyAHPQlC0JXc00oa6GWd9NhZzuxwpiNXgM+ip2YaitVjU+Gzc7 pm450xR59A==, Timestamp: 2014-04-27T11:35:19.498Z

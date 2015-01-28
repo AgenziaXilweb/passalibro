@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>38351</SKU><StandardProductID><Type>ISBN</Type><Value>9788804633570</Value></StandardProductID></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6599502364
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-10-17T10:00:50Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    6e8f829b-308b-4f9e-b5d1-af520483aaef
+            ResponseHeaderMetadata: RequestId: 6e8f829b-308b-4f9e-b5d1-af520483aaef, ResponseContext: 9oJ7eooHN4lNptmZ6buwa/P2n2RAw2MeeGzOiBJKu3csMvv8VqiiSGkJFfdjNHkdvJDrT7iFx2m9 2ETmnqLUlD7gv7z5x+Ew,jSQF5MpNG8Wpw7DshLDjyEkUFmG83MenNG9lY/w/NZtZxJe7UP+He3VEbGK0B1w8tdkt10HqJdtZ rudVG+AWig==, Timestamp: 2013-10-17T10:00:49.962Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>38351</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6599503786
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-10-17T10:01:00Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    1434738d-c2ca-4678-b77d-f85911bb12e6
+            ResponseHeaderMetadata: RequestId: 1434738d-c2ca-4678-b77d-f85911bb12e6, ResponseContext: u6CoDEpY0BHHoa5c+6bf+ztAeCx5Tp+FJSQ5bPfiNzOG2ptGqXXSJRDD3rn59DPM6CNwqc5bV7y2 +A74Kcq1R7M9ddxgGa9J,Ayg2LCN1VlNwPh1D+eRgHKp19aZ3LljGaYucsLneBxfgHK/Gyx6g+pvA20Z64XM5zM1kwhqeP42o D3Vn+uRQPQ==, Timestamp: 2013-10-17T10:01:00.796Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>38351</SKU><StandardPrice currency="EUR">18.00</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6599505450
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-10-17T10:01:11Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    fb838be8-875c-47c8-a2d8-e2fdb72fe27e
+            ResponseHeaderMetadata: RequestId: fb838be8-875c-47c8-a2d8-e2fdb72fe27e, ResponseContext: t4+tSmvWHnJhi4TpcktYlxr2KFEolx6PYP+V1pKttQzUXGOf/3cll+FbartgtvxOEW5rqwaQ8SNp i+gsgrTzchG6/IpOLcYS,DC5Im6SNQId1sRVx0GI3FS2RpJTXf1AM9DYNiMgAnBWn+Gsa2jOhwQB9ocUwIWks0RuZqZja+9Q8 L+ZHDV76Og==, Timestamp: 2013-10-17T10:01:11.508Z

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>M_LALIBRERIA_1361138</MerchantIdentifier>
+</Header>
+<MessageType>OrderReport</MessageType>
+<Message>
+<MessageID>1</MessageID>
+<OrderReport>
+<AmazonOrderID>404-0121309-9832339</AmazonOrderID>
+<AmazonSessionID>404-0121309-9832339</AmazonSessionID>
+<OrderDate>2013-09-18T16:35:40+00:00</OrderDate>
+<OrderPostedDate>2013-09-18T16:35:40+00:00</OrderPostedDate>
+<BillingData>
+<BuyerEmailAddress>dtz6r4mp7hhp495@marketplace.amazon.it</BuyerEmailAddress>
+<BuyerName>Grazia Massara</BuyerName>
+<BuyerPhoneNumber>3487269753</BuyerPhoneNumber>
+<Address>
+<Name>Grazia Massara</Name>
+<AddressFieldOne>via Monte Rosa 3</AddressFieldOne>
+<City>OLEGGIO</City>
+<StateOrRegion>Novara</StateOrRegion>
+<PostalCode>28047</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>3487269753</PhoneNumber>
+</Address>
+</BillingData>
+<FulfillmentData>
+<FulfillmentMethod>Ship</FulfillmentMethod>
+<FulfillmentServiceLevel>Standard</FulfillmentServiceLevel>
+<Address>
+<Name>Grazia Massara</Name>
+<AddressFieldOne>via Monte Rosa 3</AddressFieldOne>
+<City>OLEGGIO</City>
+<StateOrRegion>Novara</StateOrRegion>
+<PostalCode>28047</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>3487269753</PhoneNumber>
+</Address>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>14603106588347</AmazonOrderItemCode>
+<SKU>14402</SKU>
+<Title>Il mastino dei Baskerville</Title>
+<Quantity>1</Quantity>
+<ProductTaxCode>PTC_PRODUCT_TAXABLE_A</ProductTaxCode>
+<ItemPrice>
+<Component>
+<Type>Principal</Type>
+<Amount currency="EUR">4.50</Amount>
+</Component>
+<Component>
+<Type>Shipping</Type>
+<Amount currency="EUR">2.40</Amount>
+</Component>
+<Component>
+<Type>Tax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+<Component>
+<Type>ShippingTax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+</ItemPrice>
+<ItemFees>
+<Fee>
+<Type>Commission</Type>
+<Amount currency="EUR">-1.04</Amount>
+</Fee>
+</ItemFees>
+</Item>
+</OrderReport>
+</Message>
+<Message>
+<MessageID>2</MessageID>
+<OrderReport>
+<AmazonOrderID>404-7586028-2907505</AmazonOrderID>
+<AmazonSessionID>404-7586028-2907505</AmazonSessionID>
+<OrderDate>2013-09-18T16:19:46+00:00</OrderDate>
+<OrderPostedDate>2013-09-18T16:19:46+00:00</OrderPostedDate>
+<BillingData>
+<BuyerEmailAddress>6myl6b1mkx4w4dt@marketplace.amazon.it</BuyerEmailAddress>
+<BuyerName>Andrea Lorenzelli</BuyerName>
+<BuyerPhoneNumber>053442848</BuyerPhoneNumber>
+<Address>
+<Name>Andrea Lorenzelli</Name>
+<AddressFieldOne>Via Massovrana 8 - frazione Badi -</AddressFieldOne>
+<City>Castel di Casio</City>
+<StateOrRegion>Bo</StateOrRegion>
+<PostalCode>40030</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>053442848</PhoneNumber>
+</Address>
+</BillingData>
+<FulfillmentData>
+<FulfillmentMethod>Ship</FulfillmentMethod>
+<FulfillmentServiceLevel>Standard</FulfillmentServiceLevel>
+<Address>
+<Name>Andrea Lorenzelli</Name>
+<AddressFieldOne>Via Massovrana 8 - frazione Badi -</AddressFieldOne>
+<City>Castel di Casio</City>
+<StateOrRegion>Bo</StateOrRegion>
+<PostalCode>40030</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>053442848</PhoneNumber>
+</Address>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>51836510111339</AmazonOrderItemCode>
+<SKU>5I-9RVY-ZLOY</SKU>
+<Title>L'iguana</Title>
+<Quantity>1</Quantity>
+<ProductTaxCode>PTC_PRODUCT_TAXABLE_A</ProductTaxCode>
+<ItemPrice>
+<Component>
+<Type>Principal</Type>
+<Amount currency="EUR">10.00</Amount>
+</Component>
+<Component>
+<Type>Shipping</Type>
+<Amount currency="EUR">2.40</Amount>
+</Component>
+<Component>
+<Type>Tax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+<Component>
+<Type>ShippingTax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+</ItemPrice>
+<ItemFees>
+<Fee>
+<Type>Commission</Type>
+<Amount currency="EUR">-1.86</Amount>
+</Fee>
+</ItemFees>
+</Item>
+</OrderReport>
+</Message>
+<Message>
+<MessageID>3</MessageID>
+<OrderReport>
+<AmazonOrderID>171-2301759-4497940</AmazonOrderID>
+<AmazonSessionID>171-2301759-4497940</AmazonSessionID>
+<OrderDate>2013-09-18T16:34:46+00:00</OrderDate>
+<OrderPostedDate>2013-09-18T16:34:46+00:00</OrderPostedDate>
+<BillingData>
+<BuyerEmailAddress>xf3cv46lt5jnbh4@marketplace.amazon.it</BuyerEmailAddress>
+<BuyerName>TIMI GRAZIA MARIA</BuyerName>
+<BuyerPhoneNumber>3286132753</BuyerPhoneNumber>
+<Address>
+<Name>TIMI GRAZIA MARIA</Name>
+<AddressFieldOne>VIA VALDASO 10</AddressFieldOne>
+<City>PEDASO</City>
+<StateOrRegion>FM</StateOrRegion>
+<PostalCode>63827</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>3286132753</PhoneNumber>
+</Address>
+</BillingData>
+<FulfillmentData>
+<FulfillmentMethod>Ship</FulfillmentMethod>
+<FulfillmentServiceLevel>Standard</FulfillmentServiceLevel>
+<Address>
+<Name>TIMI GRAZIA MARIA</Name>
+<AddressFieldOne>VIA VALDASO 10</AddressFieldOne>
+<City>PEDASO</City>
+<StateOrRegion>FM</StateOrRegion>
+<PostalCode>63827</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>3286132753</PhoneNumber>
+</Address>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>59410880339715</AmazonOrderItemCode>
+<SKU>8600</SKU>
+<Title>Diritto economia e realtà. Con espansione online. Per le Scuole superiori: 1</Title>
+<Quantity>1</Quantity>
+<ProductTaxCode>PTC_PRODUCT_TAXABLE_A</ProductTaxCode>
+<ItemPrice>
+<Component>
+<Type>Principal</Type>
+<Amount currency="EUR">7.14</Amount>
+</Component>
+<Component>
+<Type>Shipping</Type>
+<Amount currency="EUR">2.40</Amount>
+</Component>
+<Component>
+<Type>Tax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+<Component>
+<Type>ShippingTax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+</ItemPrice>
+<ItemFees>
+<Fee>
+<Type>Commission</Type>
+<Amount currency="EUR">-1.43</Amount>
+</Fee>
+</ItemFees>
+</Item>
+</OrderReport>
+</Message>
+<Message>
+<MessageID>4</MessageID>
+<OrderReport>
+<AmazonOrderID>404-7099851-9902712</AmazonOrderID>
+<AmazonSessionID>404-7099851-9902712</AmazonSessionID>
+<OrderDate>2013-09-18T16:33:44+00:00</OrderDate>
+<OrderPostedDate>2013-09-18T16:33:44+00:00</OrderPostedDate>
+<BillingData>
+<BuyerEmailAddress>qxk78xkzkrw1xqc@marketplace.amazon.it</BuyerEmailAddress>
+<BuyerName>Alessandro Capitolo</BuyerName>
+<BuyerPhoneNumber>+393391543022</BuyerPhoneNumber>
+<Address>
+<Name>Alessandro Capitolo</Name>
+<AddressFieldOne>Via Veglia 12</AddressFieldOne>
+<City>Torino</City>
+<StateOrRegion>TO</StateOrRegion>
+<PostalCode>10136</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>+393391543022</PhoneNumber>
+</Address>
+</BillingData>
+<FulfillmentData>
+<FulfillmentMethod>Ship</FulfillmentMethod>
+<FulfillmentServiceLevel>Standard</FulfillmentServiceLevel>
+<Address>
+<Name>Alessandro Capitolo</Name>
+<AddressFieldOne>Via Veglia 12</AddressFieldOne>
+<City>Torino</City>
+<StateOrRegion>TO</StateOrRegion>
+<PostalCode>10136</PostalCode>
+<CountryCode>IT</CountryCode>
+<PhoneNumber>+393391543022</PhoneNumber>
+</Address>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>33076611190899</AmazonOrderItemCode>
+<SKU>17515</SKU>
+<Title>PASSAP. MONDO 2010 +LD   *</Title>
+<Quantity>1</Quantity>
+<ProductTaxCode>PTC_PRODUCT_TAXABLE_A</ProductTaxCode>
+<ItemPrice>
+<Component>
+<Type>Principal</Type>
+<Amount currency="EUR">12.57</Amount>
+</Component>
+<Component>
+<Type>Shipping</Type>
+<Amount currency="EUR">2.40</Amount>
+</Component>
+<Component>
+<Type>Tax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+<Component>
+<Type>ShippingTax</Type>
+<Amount currency="EUR">0.00</Amount>
+</Component>
+</ItemPrice>
+<ItemFees>
+<Fee>
+<Type>Commission</Type>
+<Amount currency="EUR">-2.25</Amount>
+</Fee>
+</ItemFees>
+</Item>
+</OrderReport>
+</Message>
+</AmazonEnvelope>

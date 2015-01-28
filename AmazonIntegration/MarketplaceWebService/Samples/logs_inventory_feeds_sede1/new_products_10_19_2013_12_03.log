@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>38570</SKU><StandardProductID><Type>ISBN</Type><Value>9788806175047</Value></StandardProductID></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>38571</SKU><StandardProductID><Type>ISBN</Type><Value>9788863803389</Value></StandardProductID></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>38572</SKU><StandardProductID><Type>ISBN</Type><Value>9788858108734</Value></StandardProductID></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>38573</SKU><StandardProductID><Type>ISBN</Type><Value>9788820054915</Value></StandardProductID></Product></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Product><SKU>38574</SKU><StandardProductID><Type>ISBN</Type><Value>9788808195760</Value></StandardProductID></Product></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Product><SKU>38575</SKU><StandardProductID><Type>ISBN</Type><Value>9788845198694</Value></StandardProductID></Product></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Product><SKU>38576</SKU><StandardProductID><Type>ISBN</Type><Value>9788879597418</Value></StandardProductID></Product></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Product><SKU>38577</SKU><StandardProductID><Type>ISBN</Type><Value>9780230021471</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Product><SKU>38578</SKU><StandardProductID><Type>ISBN</Type><Value>9788876109041</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Product><SKU>38579</SKU><StandardProductID><Type>ISBN</Type><Value>9788835019107</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Product><SKU>38580</SKU><StandardProductID><Type>ISBN</Type><Value>9788832361063</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Product><SKU>38581</SKU><StandardProductID><Type>ISBN</Type><Value>9781424029396</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Product><SKU>38582</SKU><StandardProductID><Type>ISBN</Type><Value>9781111034047</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6617287346
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-10-19T10:00:47Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    47d1d1a7-2d5c-46bb-9ff3-8c343b2fb8f3
+            ResponseHeaderMetadata: RequestId: 47d1d1a7-2d5c-46bb-9ff3-8c343b2fb8f3, ResponseContext: MQiob7CNsS4FRUvfHkU1pPDTFqDk7db1ngQ0IgYlurJtQkLSmgCqH0QIxKV+Pt1OdLCoPcYIiL6P EY5RCDTqKUjPiKT0Opx+,J52bZ542R6rUTo3AqvZtGUqW3V6Tl8tY4clikY8eHfvSXsKy0fDJjpSN9JsjTYEOwzEcFmyHt/K/ xk/Sc6zuIw==, Timestamp: 2013-10-19T10:00:47.114Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>38570</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>38571</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>38572</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>38573</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Inventory><SKU>38574</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Inventory><SKU>38575</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Inventory><SKU>38576</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Inventory><SKU>38577</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Inventory><SKU>38578</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Inventory><SKU>38579</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Inventory><SKU>38580</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Inventory><SKU>38581</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Inventory><SKU>38582</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6617289046
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-10-19T10:00:57Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    9bc52fd6-43b5-418b-8630-56623f03cfce
+            ResponseHeaderMetadata: RequestId: 9bc52fd6-43b5-418b-8630-56623f03cfce, ResponseContext: hD/2fMZBtJMTOR5jfrSvUemVttP1eb/hhGO3h9JVmXrrtiM0h1AlROEbupKeoz7P2Nf2lcCsCpz7 V59r7ydnYUVRjrDKNIgx,J52bZ542R6rUTo3AqvZtGUqW3V6Tl8tY4clikY8eHfvSXsKy0fDJjpSN9JsjTYEOwzEcFmyHt/K/ xk/Sc6zuIw==, Timestamp: 2013-10-19T10:00:57.940Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>38570</SKU><StandardPrice currency="EUR">12.00</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>38571</SKU><StandardPrice currency="EUR">16.90</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>38572</SKU><StandardPrice currency="EUR">14.00</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>38573</SKU><StandardPrice currency="EUR">19.90</StandardPrice></Price></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Price><SKU>38574</SKU><StandardPrice currency="EUR">71.50</StandardPrice></Price></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Price><SKU>38575</SKU><StandardPrice currency="EUR">14.90</StandardPrice></Price></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Price><SKU>38576</SKU><StandardPrice currency="EUR">30.00</StandardPrice></Price></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Price><SKU>38577</SKU><StandardPrice currency="EUR">16.62</StandardPrice></Price></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Price><SKU>38578</SKU><StandardPrice currency="EUR">7.75</StandardPrice></Price></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Price><SKU>38579</SKU><StandardPrice currency="EUR">10.00</StandardPrice></Price></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Price><SKU>38580</SKU><StandardPrice currency="EUR">20.50</StandardPrice></Price></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Price><SKU>38581</SKU><StandardPrice currency="EUR">11.40</StandardPrice></Price></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Price><SKU>38582</SKU><StandardPrice currency="EUR">13.20</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6617290538
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-10-19T10:01:08Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    8fefa7f3-4c69-4965-b5ce-2504c33fa9b2
+            ResponseHeaderMetadata: RequestId: 8fefa7f3-4c69-4965-b5ce-2504c33fa9b2, ResponseContext: 9oJ7eooHN4lNptmZ6buwa/P2n2RAw2MeeGzOiBJKu3csMvv8VqiiSGkJFfdjNHkdvJDrT7iFx2m9 2ETmnqLUlD7gv7z5x+Ew,MGaELYHIZ3bnKx/zRv/rTOdGS7hVeaoqUfCLJG70y+t26SLfsgljbWqI8KrrqMJnnRY24440ADN3 0kv1VrVfbA==, Timestamp: 2013-10-19T10:01:08.803Z

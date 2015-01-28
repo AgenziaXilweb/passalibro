@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>42964</SKU><StandardProductID><Type>ISBN</Type><Value>9788806180980</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>42963</SKU><StandardProductID><Type>ISBN</Type><Value>9788811683605</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>42962</SKU><StandardProductID><Type>ISBN</Type><Value>9788842816768</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>42961</SKU><StandardProductID><Type>ISBN</Type><Value>9788834712245</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Product><SKU>42960</SKU><StandardProductID><Type>ISBN</Type><Value>9788830426856</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Product><SKU>42959</SKU><StandardProductID><Type>ISBN</Type><Value>9788820033408</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Product><SKU>42958</SKU><StandardProductID><Type>ISBN</Type><Value>9788813298609</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Product><SKU>42957</SKU><StandardProductID><Type>ISBN</Type><Value>9788861591585</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Product><SKU>42956</SKU><StandardProductID><Type>ISBN</Type><Value>9788811368724</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Product><SKU>42955</SKU><StandardProductID><Type>ISBN</Type><Value>9788817867542</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Product><SKU>42954</SKU><StandardProductID><Type>ISBN</Type><Value>9788804530305</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Product><SKU>42953</SKU><StandardProductID><Type>ISBN</Type><Value>9788817169110</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Product><SKU>42952</SKU><StandardProductID><Type>ISBN</Type><Value>9788804482000</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Product><SKU>42951</SKU><StandardProductID><Type>ISBN</Type><Value>9788842495017</Value></StandardProductID><Condition><ConditionType>UsedGood</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7343275784
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2014-01-04T17:01:17Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    e7ec2a46-aaa8-408c-91e9-fff4e0ad2edd
+            ResponseHeaderMetadata: RequestId: e7ec2a46-aaa8-408c-91e9-fff4e0ad2edd, ResponseContext: dyo1VEinMC657VvUsEg9nETbnYa+ALWP+HCVNRLjYy3p86D8Ad8guF4wYyuxu1xkymh2Sksnp6Jt s7Fr/D30a2qxRyXy8e6l,8Ox9YWPHobNxFb82kNyh4ogR7cddRFRJeb6iuQtM4MOGEMBLQCEYXbqh6ueAzt8JVDcZ+f/z1af5 xRic3FXkMA==, Timestamp: 2014-01-04T17:01:16.161Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>42964</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>42963</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>42962</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>42961</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Inventory><SKU>42960</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Inventory><SKU>42959</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Inventory><SKU>42958</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Inventory><SKU>42957</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Inventory><SKU>42956</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Inventory><SKU>42955</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Inventory><SKU>42954</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Inventory><SKU>42953</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Inventory><SKU>42952</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Inventory><SKU>42951</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7343276274
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2014-01-04T17:01:23Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    555867d0-2ecf-4f54-a2f5-1eb0ec8984c7
+            ResponseHeaderMetadata: RequestId: 555867d0-2ecf-4f54-a2f5-1eb0ec8984c7, ResponseContext: 9+nu2hmCzE/raiHb3Y8Exys8BJhhgVneiXszPT3nBJXUsX+HmpQ6LUqUPrRSTEh0aW4s6YwenZ0w 43WL33+BdgKjvngiGGVn,lkK5Td/+QOXdahrlewe0CIGPmkygNqetGToQN/w0fGTkJpVxOQxhRqc8DGXagt/NVuI2zTw+bvtO NX/sS82XXg==, Timestamp: 2014-01-04T17:01:22.919Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>42964</SKU><StandardPrice currency="EUR">5.25</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>42963</SKU><StandardPrice currency="EUR">8.80</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>42962</SKU><StandardPrice currency="EUR">11.40</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>42961</SKU><StandardPrice currency="EUR">6.25</StandardPrice></Price></Message><Message><MessageID>5</MessageID><OperationType>Update</OperationType><Price><SKU>42960</SKU><StandardPrice currency="EUR">9.30</StandardPrice></Price></Message><Message><MessageID>6</MessageID><OperationType>Update</OperationType><Price><SKU>42959</SKU><StandardPrice currency="EUR">9.50</StandardPrice></Price></Message><Message><MessageID>7</MessageID><OperationType>Update</OperationType><Price><SKU>42958</SKU><StandardPrice currency="EUR">19.00</StandardPrice></Price></Message><Message><MessageID>8</MessageID><OperationType>Update</OperationType><Price><SKU>42957</SKU><StandardPrice currency="EUR">9.00</StandardPrice></Price></Message><Message><MessageID>9</MessageID><OperationType>Update</OperationType><Price><SKU>42956</SKU><StandardPrice currency="EUR">3.50</StandardPrice></Price></Message><Message><MessageID>10</MessageID><OperationType>Update</OperationType><Price><SKU>42955</SKU><StandardPrice currency="EUR">8.27</StandardPrice></Price></Message><Message><MessageID>11</MessageID><OperationType>Update</OperationType><Price><SKU>42954</SKU><StandardPrice currency="EUR">4.50</StandardPrice></Price></Message><Message><MessageID>12</MessageID><OperationType>Update</OperationType><Price><SKU>42953</SKU><StandardPrice currency="EUR">4.45</StandardPrice></Price></Message><Message><MessageID>13</MessageID><OperationType>Update</OperationType><Price><SKU>42952</SKU><StandardPrice currency="EUR">4.75</StandardPrice></Price></Message><Message><MessageID>14</MessageID><OperationType>Update</OperationType><Price><SKU>42951</SKU><StandardPrice currency="EUR">5.03</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        7343276738
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2014-01-04T17:01:30Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    c09be55e-a3ad-4128-982a-14d0545684e8
+            ResponseHeaderMetadata: RequestId: c09be55e-a3ad-4128-982a-14d0545684e8, ResponseContext: 9+nu2hmCzE/raiHb3Y8Exys8BJhhgVneiXszPT3nBJXUsX+HmpQ6LUqUPrRSTEh0aW4s6YwenZ0w 43WL33+BdgKjvngiGGVn,MtcWoSpNXgYZLXeavBr/t8hGekAxlmVmZ3Z38uVga6bgo9Iga1zrA4BVqYakfXauHhmAWpaHHJsP jimi10VorA==, Timestamp: 2014-01-04T17:01:28.998Z

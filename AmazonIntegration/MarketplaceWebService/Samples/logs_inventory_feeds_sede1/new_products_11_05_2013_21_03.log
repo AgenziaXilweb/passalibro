@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>39522</SKU><StandardProductID><Type>ISBN</Type><Value>9788843038039</Value></StandardProductID><Condition><ConditionType>UsedAcceptable</ConditionType></Condition></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6772994232
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-11-05T20:02:58Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    159c3df5-de99-480f-832b-2f5e5baa5251
+            ResponseHeaderMetadata: RequestId: 159c3df5-de99-480f-832b-2f5e5baa5251, ResponseContext: bPV21MxQmewwVrJEh65wHMsBRccxsW15x8Ofbk18TMpdr5DmnN4zRyT+bDkczNcj7u3e4UZXCVAn OMwMR6WlfgarUvYvdOr9,7Y/RaooHJX4g4EY2h4S6NBNx+UQkbCKdDIdm1FMfGa33UD56OJmbr6aQ0bRhyaWEcEUnUJU2uHWc pGyRQeT1Vw==, Timestamp: 2013-11-05T20:02:48.531Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>39522</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6772995508
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-11-05T20:03:10Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    a1d059a5-558d-4d52-9e76-854240d731c5
+            ResponseHeaderMetadata: RequestId: a1d059a5-558d-4d52-9e76-854240d731c5, ResponseContext: UUx3CdRLrHcf1fszTQxU/G3fZWKMsybXJhKdVls99pturiBN64LD0CV8wBzDJrDA8idxr7f6mrPz lGFuMRt42gvoy6KOdVnS,1aDc/oux3Q6avpGweF+MARybBsPSQ/HTNCC1XuYy9KQNXFVBlyCUdmaORM7YnTlzWn/TuRWlMQ2P rNAap22nzA==, Timestamp: 2013-11-05T20:03:08.985Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>39522</SKU><StandardPrice currency="EUR">10.00</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6772996662
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-11-05T20:03:20Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    0225949c-b9bc-4fdc-81a5-003e94cb2ea7
+            ResponseHeaderMetadata: RequestId: 0225949c-b9bc-4fdc-81a5-003e94cb2ea7, ResponseContext: iaDzSJQ356jCAKO3xYrd2TZt8ldE+4D2syi55P0v5mRnMHvCY8orZRtt4U5DAxDDdstvV7Uo5Zbe aoKCof2wK+cOL8gGDRy4,StoHvMn2bHN7y4e1uBf43Ktwxjdi59eHCw+rQxOWr5C7g1ppHw3hjUfLPxxSDizw0U5O+lS0gyxe /DB2U+kg2A==, Timestamp: 2013-11-05T20:03:20.422Z

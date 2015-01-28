@@ -1,0 +1,1074 @@
+# Questo file viminfo è stato generato da Vim 7.3.
+# File modificabile, attento a quel che fai!
+
+# Valore di 'encoding' al momento della scrittura di questo file
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ult. Espressione di Ricerca:
+~MSle0~/<SKU>8658<
+
+# Ult. Sostituzione Espressione di Ricerca:
+~MSle0&amazonDeleteProducts
+
+# Ultima Stringa Sostituzione:
+$amazonUpdateProductsQuantity
+
+# Linea di Comando Storia (da più recente a meno recente):
+:q
+:wq
+:w
+:q!
+:s
+:Gn 96
+:G96
+:%s/amazonDeleteProducts/amazonUpdateProductsQuantity/g
+:%s/localhost/192.168.4.5/g
+:%s/localhost/
+:!q
+
+# Stringa di Ricerca Storia (da più recente a meno recente):
+?/<SKU>8658</SKU>
+?/magsedi
+?/giacenza_magsedi
+?/172.19.0.23
+?/<SKU>29279</SKU>
+?/21146
+? \<3\>
+?/intonso
+?/<MessageID>10</MessageID>
+?/POPOLARE
+?/1964
+?/"ANNO EDIZIONE 1964"
+?/ANNO EDIZIONE 1964
+?/ANNO EDIZIONE 
+?/171-1186776-0828342
+?/403-9098838-15739
+? \<wo_ip_address\>
+? \<0\>
+?/date(
+?/date
+? amazonDeleteProducts
+?/%s/amazonDeleteProducts/amazonUpdateProductsQuantity/g
+? localhost
+?/:q!
+?/FcY7DiqGu5hux66IJWIdVOL
+
+# Espressione Storia (da più recente a meno recente):
+
+# Linea di Input Storia (da più recente a meno recente):
+
+# Linea di Input Storia (da più recente a meno recente):
+
+# Registri:
+"1	LINE	0
+	 php SubmitFeedSample.php 4 > logs_inventory_feeds_sede4/new_products_`date +"%m_%d_%Y_%H_%M"`.log
+"2	LINE	0
+	 php SubmitFeedSample.php 3 > logs_inventory_feeds_sede3/new_products_`date +"%m_%d_%Y_%H_%M"`.log
+"3	LINE	0
+	 php SubmitFeedSample.php 2 > logs_inventory_feeds_sede2/new_products_`date +"%m_%d_%Y_%H_%M"`.log
+"4	LINE	0
+	 php SubmitFeedSample.php 1 > logs_inventory_feeds_sede1/new_products_`date +"%m_%d_%Y_%H_%M"`.log
+"5	LINE	0
+	 php SubmitFeedSample.php 4 > logs_inventory_feeds_sede4/update_products_quantity_price_`date +"%m_%d_%Y_%H_%M"`.log
+"6	LINE	0
+	#
+"7	LINE	0
+	# Lancio dei Feeds ad Amazon
+"8	LINE	0
+	#
+"9	LINE	0
+	 php SubmitFeedSample.php 3 > logs_inventory_feeds_sede3/update_products_quantity_price_`date +"%m_%d_%Y_%H_%M"`.log
+""-	CHAR	0
+	1
+
+# File mark:
+'0  192  19  ~/AmazonIntegration/MarketplaceWebService/Samples/SubmitFeedSample.php
+'1  1  7  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+'2  24  25  /tmp/crontab.zr3lqw/crontab
+'3  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+'4  3  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+'5  1  0  /tmp/crontab.OYDpaQ/crontab
+'6  4  34  /tmp/crontab.K0WXMA/crontab
+'7  5  33  /tmp/crontab.yHVXw3/crontab
+'8  6  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+'9  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsResultStatus.sh
+
+# Jumplist (dai più recenti):
+-'  192  19  ~/AmazonIntegration/MarketplaceWebService/Samples/SubmitFeedSample.php
+-'  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/SubmitFeedSample.php
+-'  1  7  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  24  25  /tmp/crontab.zr3lqw/crontab
+-'  1  0  /tmp/crontab.zr3lqw/crontab
+-'  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+-'  3  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  1  0  /tmp/crontab.OYDpaQ/crontab
+-'  4  34  /tmp/crontab.K0WXMA/crontab
+-'  1  0  /tmp/crontab.K0WXMA/crontab
+-'  5  33  /tmp/crontab.yHVXw3/crontab
+-'  1  0  /tmp/crontab.yHVXw3/crontab
+-'  6  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsResultStatus.sh
+-'  4  164  /tmp/crontab.iNJOkG/crontab
+-'  1  0  /tmp/crontab.iNJOkG/crontab
+-'  22  7  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+-'  4  149  /tmp/crontab.Os2x9U/crontab
+-'  1  0  /tmp/crontab.Os2x9U/crontab
+-'  4  105  /tmp/crontab.9KPmFT/crontab
+-'  1  0  /tmp/crontab.9KPmFT/crontab
+-'  103  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  87  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  9  59  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  75  7  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+-'  2  0  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  4  25  ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+-'  29  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  346  0  ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportSample.php
+-'  1  0  ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportSample.php
+-'  140  157  ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportSample.php
+-'  124  126  ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportSample.php
+-'  309  0  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/GetOrderSample.php
+-'  1  0  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/GetOrderSample.php
+-'  3  77  ~/passalibro/backups/MySQLdump.sh
+-'  1  0  ~/passalibro/backups/MySQLdump.sh
+-'  9  0  /tmp/crontab.S1iWHX/crontab
+-'  1  0  /tmp/crontab.S1iWHX/crontab
+-'  4  1  /tmp/crontab.EHxMDA/crontab
+-'  1  0  /tmp/crontab.EHxMDA/crontab
+-'  8  0  /tmp/crontab.a8H0PS/crontab
+-'  1  0  /tmp/crontab.a8H0PS/crontab
+-'  1  0  ~/MySQLdump.sh
+-'  60  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+-'  15  133  /tmp/crontab.KXFNut/crontab
+-'  1  0  /tmp/crontab.KXFNut/crontab
+-'  17  162  /tmp/crontab.JIKHVd/crontab
+-'  1  0  /tmp/crontab.JIKHVd/crontab
+-'  15  131  /tmp/crontab.bqM2Wt/crontab
+-'  1  0  /tmp/crontab.bqM2Wt/crontab
+-'  15  9  /tmp/crontab.V3Y72d/crontab
+-'  1  0  /tmp/crontab.V3Y72d/crontab
+-'  15  162  /tmp/crontab.nECwBs/crontab
+-'  1  0  /tmp/crontab.nECwBs/crontab
+-'  14  91  /tmp/crontab.N5pVNJ/crontab
+-'  1  0  /tmp/crontab.N5pVNJ/crontab
+-'  7  1  ~/passalibro/backups/MySQLdump.sh
+-'  62  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+-'  84  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  85  5  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  14  0  /tmp/crontab.qWNFlD/crontab
+-'  1  0  /tmp/crontab.qWNFlD/crontab
+-'  7  0  /tmp/crontab.hueflC/crontab
+-'  1  0  /tmp/crontab.hueflC/crontab
+-'  8  0  /tmp/crontab.cUdl56/crontab
+-'  1  0  /tmp/crontab.cUdl56/crontab
+-'  14  1  /tmp/crontab.xJQnsB/crontab
+-'  1  0  /tmp/crontab.xJQnsB/crontab
+-'  8  0  /tmp/crontab.zHVnDg/crontab
+-'  1  0  /tmp/crontab.zHVnDg/crontab
+-'  7  0  /tmp/crontab.g58P3E/crontab
+-'  1  0  /tmp/crontab.g58P3E/crontab
+-'  1351  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  1  0  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  4929  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  6279  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  1  0  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml:q
+-'  7115  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  10649  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  14182  20  ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+-'  8  0  /tmp/crontab.PMiNTq/crontab
+-'  1  0  /tmp/crontab.PMiNTq/crontab
+-'  8  0  /tmp/crontab.6E5pnj/crontab
+-'  1  0  /tmp/crontab.6E5pnj/crontab
+-'  8  0  /tmp/crontab.gTtdjD/crontab
+-'  1  0  /tmp/crontab.gTtdjD/crontab
+-'  7  0  /tmp/crontab.Bi5b2H/crontab
+-'  1  0  /tmp/crontab.Bi5b2H/crontab
+-'  8  0  /tmp/crontab.4cz6la/crontab
+-'  1  0  /tmp/crontab.4cz6la/crontab
+-'  7  0  /tmp/crontab.FQYk71/crontab
+-'  1  0  /tmp/crontab.FQYk71/crontab
+-'  4  16  /tmp/crontab.ciZjHh/crontab
+-'  1  0  /tmp/crontab.ciZjHh/crontab
+-'  8  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+-'  4  0  /tmp/crontab.wYvcyI/crontab
+-'  1  0  /tmp/crontab.wYvcyI/crontab
+-'  83  0  ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+
+# Storia dei mark all'interno dei file (dai più recenti ai meno recenti):
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/SubmitFeedSample.php
+	"	192	19
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsUpdateQtaPrice.sh
+	"	1	7
+	.	97	7
+	+	22	33
+	+	26	0
+	+	24	0
+	+	43	0
+	+	44	0
+	+	63	0
+	+	62	0
+	+	78	0
+	+	77	0
+	+	18	21
+	+	19	21
+	+	24	21
+	+	26	21
+	+	36	21
+	+	37	21
+	+	43	21
+	+	44	21
+	+	55	21
+	+	56	21
+	+	62	21
+	+	63	21
+	+	74	21
+	+	75	21
+	+	77	21
+	+	78	21
+	+	24	0
+	+	26	0
+	+	43	0
+	+	44	0
+	+	63	0
+	+	62	0
+	+	77	0
+	+	78	0
+	+	29	8
+	+	50	3
+	+	69	34
+	+	29	5
+	+	50	8
+	+	69	33
+	+	29	25
+	+	29	7
+	+	51	7
+	+	69	32
+	+	29	0
+	+	29	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	38	0
+	+	37	7
+	+	40	0
+	+	39	7
+	+	51	0
+	+	57	0
+	+	56	7
+	+	59	0
+	+	58	7
+	+	69	0
+	+	76	0
+	+	75	7
+	+	76	0
+	+	76	7
+	+	24	0
+	+	26	0
+	+	25	0
+	+	24	7
+	+	27	0
+	+	26	7
+	+	44	0
+	+	46	0
+	+	44	1
+	+	45	0
+	+	44	7
+	+	47	0
+	+	46	7
+	+	29	0
+	+	50	0
+	+	69	0
+	+	85	0
+	+	29	0
+	+	54	0
+	+	76	0
+	+	76	0
+	+	99	0
+	+	18	7
+	+	20	7
+	+	25	7
+	+	27	7
+	+	42	7
+	+	44	7
+	+	49	7
+	+	51	7
+	+	65	7
+	+	67	7
+	+	72	7
+	+	74	7
+	+	88	7
+	+	90	7
+	+	95	7
+	+	97	7
+
+> /tmp/crontab.zr3lqw/crontab
+	"	24	25
+	^	25	1
+	.	25	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	23	0
+	+	22	0
+	+	24	0
+	+	25	0
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsCreation.sh
+	"	1	0
+	^	22	8
+	.	22	7
+	+	22	5
+	+	34	0
+	+	35	0
+	+	37	5
+	+	53	0
+	+	54	0
+	+	60	5
+	+	72	0
+	+	73	0
+	+	75	5
+	+	22	69
+	+	22	70
+	+	37	55
+	+	60	55
+	+	75	55
+	+	15	113
+	+	16	117
+	+	18	104
+	+	18	0
+	+	34	114
+	+	35	108
+	+	53	113
+	+	54	117
+	+	56	112
+	+	72	114
+	+	73	114
+	+	20	104
+	+	20	0
+	+	37	1
+	+	39	0
+	+	37	102
+	+	41	0
+	+	39	105
+	+	58	105
+	+	39	102
+	+	15	21
+	+	16	21
+	+	18	21
+	+	20	21
+	+	34	21
+	+	35	21
+	+	37	21
+	+	39	21
+	+	53	21
+	+	54	21
+	+	56	21
+	+	58	21
+	+	72	21
+	+	73	21
+	+	53	0
+	+	54	0
+	+	56	0
+	+	58	0
+	+	60	0
+	+	53	0
+	+	54	0
+	+	56	0
+	+	58	0
+	+	60	0
+	+	16	1
+	+	17	0
+	+	16	7
+	+	18	8
+	+	18	1
+	+	19	0
+	+	18	9
+	+	21	0
+	+	20	1
+	+	19	0
+	+	23	0
+	+	22	7
+	+	36	0
+	+	35	1
+	+	37	1
+	+	38	0
+	+	37	1
+	+	40	0
+	+	39	1
+	+	42	0
+	+	41	7
+	+	55	0
+	+	54	1
+	+	57	0
+	+	56	1
+	+	59	0
+	+	58	1
+	+	61	0
+	+	60	7
+	+	74	0
+	+	73	1
+	+	76	0
+	+	75	7
+	+	23	0
+	+	42	0
+	+	61	0
+	+	76	0
+	+	75	7
+	+	60	7
+	+	41	7
+	+	22	7
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/lancia_feed.sh
+	"	3	0
+	^	6	0
+	.	6	0
+	+	9	100
+	+	4	54
+	+	8	54
+	+	9	25
+	+	8	25
+	+	4	25
+	+	1	9
+	+	3	59
+	+	4	59
+	+	8	59
+	+	9	59
+	+	4	37
+	+	5	0
+	+	6	0
+
+> /tmp/crontab.OYDpaQ/crontab
+	"	1	0
+
+> /tmp/crontab.K0WXMA/crontab
+	"	4	34
+	^	4	35
+	.	4	35
+	+	4	35
+	+	3	163
+	+	4	0
+	+	4	35
+
+> /tmp/crontab.yHVXw3/crontab
+	"	5	33
+	^	5	34
+	.	5	33
+	+	5	33
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/amazonFeedsResultStatus.sh
+	"	1	0
+
+> /tmp/crontab.iNJOkG/crontab
+	"	4	164
+	^	4	165
+	.	4	164
+	+	4	164
+
+> /tmp/crontab.Os2x9U/crontab
+	"	4	149
+	^	4	150
+	.	4	150
+	+	4	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	4	31
+	+	4	150
+
+> /tmp/crontab.9KPmFT/crontab
+	"	4	105
+	^	4	106
+	.	4	105
+	+	4	105
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportSample.php
+	"	346	0
+	^	140	158
+	.	306	0
+	+	272	26
+	+	129	131
+	+	181	24
+	+	186	0
+	+	183	100
+	+	182	24
+	+	183	24
+	+	210	51
+	+	147	76
+	+	160	0
+	+	158	2
+	+	182	141
+	+	186	29
+	+	187	29
+	+	188	29
+	+	189	29
+	+	183	28
+	+	185	6
+	+	183	28
+	+	184	90
+	+	1	0
+	+	196	43
+	+	203	43
+	+	210	51
+	+	124	111
+	+	133	114
+	+	140	109
+	+	306	0
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/GetOrderSample.php
+	"	309	0
+
+> ~/passalibro/backups/MySQLdump.sh
+	"	3	77
+	^	3	77
+	.	3	77
+	+	3	95
+	+	6	1
+	+	7	1
+	+	3	77
+
+> /tmp/crontab.S1iWHX/crontab
+	"	9	0
+	^	9	0
+	.	8	0
+	+	4	0
+	+	6	0
+	+	7	0
+	+	8	0
+
+> /tmp/crontab.EHxMDA/crontab
+	"	4	1
+	^	4	2
+	.	4	1
+	+	4	1
+
+> /tmp/crontab.a8H0PS/crontab
+	"	8	0
+	^	8	1
+	.	8	0
+	+	6	0
+	+	7	0
+	+	8	0
+
+> ~/MySQLdump.sh
+	"	1	0
+
+> /tmp/crontab.KXFNut/crontab
+	"	15	133
+	^	15	134
+	.	15	133
+	+	15	11
+	+	15	133
+
+> /tmp/crontab.JIKHVd/crontab
+	"	17	162
+	^	17	163
+	.	17	162
+	+	14	41
+	+	15	39
+	+	18	22
+	+	18	157
+	+	18	0
+	+	17	162
+
+> /tmp/crontab.bqM2Wt/crontab
+	"	15	131
+	^	15	131
+	.	15	131
+	+	15	131
+
+> /tmp/crontab.V3Y72d/crontab
+	"	15	9
+	^	15	10
+	.	15	9
+	+	15	9
+
+> /tmp/crontab.nECwBs/crontab
+	"	15	162
+	^	15	163
+	.	15	163
+	+	15	129
+	+	17	163
+	+	15	162
+	+	14	162
+	+	15	163
+
+> /tmp/crontab.N5pVNJ/crontab
+	"	14	91
+	^	14	92
+	.	14	84
+	+	11	0
+	+	16	163
+	+	16	0
+	+	13	0
+	+	15	162
+	+	13	162
+	+	14	84
+
+> /tmp/crontab.qWNFlD/crontab
+	"	14	0
+	.	14	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+
+> /tmp/crontab.hueflC/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.cUdl56/crontab
+	"	8	0
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.xJQnsB/crontab
+	"	14	1
+	^	14	2
+	.	14	1
+	+	11	0
+	+	12	1
+	+	13	1
+	+	14	1
+
+> /tmp/crontab.zHVnDg/crontab
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.g58P3E/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml
+	"	1351	20
+	^	1351	21
+	.	1351	0
+	+	14182	0
+	+	10649	0
+	+	7115	0
+	+	6279	0
+	+	4929	0
+	+	1351	0
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/order.xml:q
+	"	1	0
+
+> /tmp/crontab.PMiNTq/crontab
+	"	8	0
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.6E5pnj/crontab
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.gTtdjD/crontab
+	"	8	0
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.Bi5b2H/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.4cz6la/crontab
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.FQYk71/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.ciZjHh/crontab
+	"	4	16
+	^	4	17
+	.	4	17
+	+	4	17
+
+> /tmp/crontab.wYvcyI/crontab
+	"	4	0
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.kkVuGP/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.hWMXP2/crontab
+	"	4	162
+	^	4	163
+	.	4	162
+	+	4	162
+
+> /tmp/crontab.vWWstj/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.c4NjOu/crontab
+	"	8	0
+	.	6	0
+	+	5	0
+	+	6	0
+
+> /tmp/crontab.plqgYc/crontab
+	"	6	0
+	.	6	0
+	+	4	0
+	+	5	0
+	+	6	0
+
+> /tmp/crontab.4bGkU4/crontab
+	"	8	0
+	.	8	0
+	+	8	0
+
+> /tmp/crontab.tFZeD5/crontab
+	"	7	0
+	^	7	1
+	.	5	0
+	+	5	0
+
+> /tmp/crontab.bO8wh6/crontab
+	"	8	0
+	^	8	1
+	.	8	0
+	+	4	0
+	+	6	0
+	+	8	0
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/logs_inventory_feeds_sede4/update_products_quantity_price_07_03_2014_15_54.log
+	"	62	1502
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/ListOrderItemsSample.php
+	"	125	0
+	^	42	9
+	.	42	0
+	+	40	3
+	+	39	4
+	+	43	8
+	+	44	7
+	+	44	0
+	+	44	35
+	+	44	11
+	+	44	8
+	+	44	11
+	+	44	0
+	+	42	0
+
+> /tmp/crontab.d4yJLi/crontab
+	"	1	0
+
+> /tmp/crontab.LW9zAw/crontab
+	"	8	0
+	.	8	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+
+> /tmp/crontab.ZmYaOz/crontab
+	"	5	0
+	^	5	1
+	.	5	0
+	+	4	0
+	+	6	0
+	+	8	0
+	+	7	0
+	+	5	0
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/GetReportListSample.php
+	"	147	0
+
+> ~/includes/configure.php
+	"	1	0
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/.config.inc.php
+	"	46	0
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/ListOrdersSample.php
+	"	1	0
+	^	168	97
+	.	168	84
+	+	174	92
+	+	175	92
+	+	182	94
+	+	183	96
+	+	182	94
+	+	175	92
+	+	174	92
+	+	168	84
+	+	169	86
+	+	175	86
+	+	176	101
+	+	175	86
+	+	169	86
+	+	168	84
+
+> ~/AmazonIntegration/MarketplaceWebServiceOrders/Samples/amazonPending.sh
+	"	1	0
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/.config.inc.php
+	"	1	0
+	^	3	34
+	.	3	33
+	+	3	33
+	+	9	21
+	+	12	21
+	+	9	19
+	+	12	19
+	+	52	65
+	+	53	46
+	+	52	63
+	+	2	0
+	+	3	33
+
+> ~/includes/functions/database.php
+	"	13	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /tmp/crontab.OoE95C/crontab
+	"	16	1
+
+> /tmp/crontab.1YB9te/crontab
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> /tmp/crontab.abH3fn/crontab
+	"	15	0
+	^	15	1
+	.	15	0
+	+	15	0
+
+> /tmp/crontab.L1Ri8i/crontab
+	"	11	0
+	^	11	1
+	.	11	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+
+> /tmp/crontab.gOWh8z/crontab
+	"	1	0
+
+> /tmp/crontab.FaJvVs/crontab
+	"	10	0
+	^	10	1
+	.	16	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	16	0
+
+> /tmp/crontab.Xf1FxF/crontab
+	"	8	162
+	^	8	163
+	.	8	162
+	+	8	0
+	+	8	162
+
+> /tmp/crontab.10Rxxe/crontab
+	"	1	0
+
+> /tmp/crontab.mEyo3P/crontab
+	"	7	0
+	.	7	0
+	+	4	0
+	+	7	0
+
+> /tmp/crontab.TUQbEC/crontab
+	"	1	0
+
+> /tmp/crontab.cyd4SA/crontab
+	"	6	0
+	^	6	0
+	.	4	0
+	+	7	0
+	+	4	0
+
+> /tmp/crontab.j0YQQh/crontab
+	"	7	162
+	^	7	163
+	.	7	162
+	+	7	162
+
+> /tmp/crontab.DL2As1/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.ZEkzgZ/crontab
+	"	7	162
+	^	7	163
+	.	7	162
+	+	7	0
+	+	7	162
+
+> /tmp/crontab.fAR2Aj/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.zGChuq/crontab
+	"	7	162
+	^	7	163
+	.	7	162
+	+	7	162
+
+> /tmp/crontab.bIlD1G/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.iX1CYg/crontab
+	"	1	0
+
+> /tmp/crontab.2xCT0a/crontab
+	"	6	0
+	.	6	0
+	+	7	0
+	+	6	0
+
+> /tmp/crontab.LdbRfQ/crontab
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> /tmp/crontab.Nlq9zs/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.yVNkcU/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.xnDVZX/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.LHpqUp/crontab
+	"	5	0
+	^	6	162
+	.	6	161
+	+	8	0
+	+	8	162
+	+	6	161
+
+> /tmp/crontab.ltNqXk/crontab
+	"	4	0
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.4UAnNB/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.zqSmSA/crontab
+	"	4	0
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.4YR6Is/crontab
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> /tmp/crontab.hkWm23/crontab
+	"	1	0
+
+> /tmp/crontab.HZ0Vwn/crontab
+	"	1	0
+
+> /tmp/crontab.5ocHz2/crontab
+	"	11	0
+	.	11	0
+	+	11	0
+
+> /tmp/crontab.MFFdAR/crontab
+	"	8	3
+	^	8	4
+	.	8	3
+	+	8	3
+
+> /tmp/crontab.NkhCXV/crontab
+	"	6	13
+	^	6	14
+	.	6	13
+	+	6	13
+
+> /tmp/crontab.ALLt8c/crontab
+	"	6	7
+	^	6	11
+	.	6	10
+	+	6	10
+
+> /tmp/crontab.NMUsZa/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.rexpKG/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.rj5sdf/crontab
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /tmp/crontab.fRHC4t/crontab
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> ~/AmazonIntegration/MarketplaceWebService/Samples/logs_inventory_feeds_sede3/update_products_quantity_price_04_22_2014_09_48.log
+	"	8	636689

@@ -1,0 +1,78 @@
+_POST_PRODUCT_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Product</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Product><SKU>39405</SKU><StandardProductID><Type>ISBN</Type><Value>9788814173240</Value></StandardProductID></Product></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Product><SKU>39406</SKU><StandardProductID><Type>ISBN</Type><Value>9788814172465</Value></StandardProductID></Product></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Product><SKU>39407</SKU><StandardProductID><Type>ISBN</Type><Value>9788814175572</Value></StandardProductID></Product></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Product><SKU>39408</SKU><StandardProductID><Type>ISBN</Type><Value>9788860525185</Value></StandardProductID></Product></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6726204176
+                    FeedType
+                        _POST_PRODUCT_DATA_
+                    SubmittedDate
+                        2013-10-31T14:02:57Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    1799d301-0489-4eaf-a236-15eb782f5162
+            ResponseHeaderMetadata: RequestId: 1799d301-0489-4eaf-a236-15eb782f5162, ResponseContext: RRQLVFWcEFWoQcJcfpUGP49yzm2RVn62UhsuXFYkdEnbf7zpqjlLnwQfEKPVkfmBEtMwu5Jvfu/w D/MRcUWo/P6zQhiy3HGj,gffbQl2sw4Q6G7IZJ0TmTnOFQ32/qTQwHKZ46iwFSMKOTbHTMPR/lo0DP12jWfZKpvdUNDRuVVHd IdvKcNZKlQ==, Timestamp: 2013-10-31T14:02:56.796Z
+_POST_INVENTORY_AVAILABILITY_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Inventory</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Inventory><SKU>39405</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Inventory><SKU>39408</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Inventory><SKU>39406</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Inventory><SKU>39407</SKU><Quantity>1</Quantity><FulfillmentLatency>5</FulfillmentLatency></Inventory></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6726206030
+                    FeedType
+                        _POST_INVENTORY_AVAILABILITY_DATA_
+                    SubmittedDate
+                        2013-10-31T14:03:08Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    57960dc9-8140-4448-83ae-3d912936d514
+            ResponseHeaderMetadata: RequestId: 57960dc9-8140-4448-83ae-3d912936d514, ResponseContext: bPV21MxQmewwVrJEh65wHMsBRccxsW15x8Ofbk18TMpdr5DmnN4zRyT+bDkczNcj7u3e4UZXCVAn OMwMR6WlfgarUvYvdOr9,DUMyDvIty6g5c8yXNvhYw3hb2E1cEqkAqgKgU6r/dsJYxX+uirO4dx+iBDVZsdbSOS9aTvEQtP+6 BETjz0A/sA==, Timestamp: 2013-10-31T14:03:07.603Z
+_POST_PRODUCT_PRICING_DATA_:
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+  </Header><MessageType>Price</MessageType><Message><MessageID>1</MessageID><OperationType>Update</OperationType><Price><SKU>39405</SKU><StandardPrice currency="EUR">59.00</StandardPrice></Price></Message><Message><MessageID>2</MessageID><OperationType>Update</OperationType><Price><SKU>39408</SKU><StandardPrice currency="EUR">15.00</StandardPrice></Price></Message><Message><MessageID>3</MessageID><OperationType>Update</OperationType><Price><SKU>39406</SKU><StandardPrice currency="EUR">88.00</StandardPrice></Price></Message><Message><MessageID>4</MessageID><OperationType>Update</OperationType><Price><SKU>39407</SKU><StandardPrice currency="EUR">72.00</StandardPrice></Price></Message></AmazonEnvelope>
+
+
+Service Response
+=============================================================================
+        SubmitFeedResponse
+            SubmitFeedResult
+                FeedSubmissionInfo
+                    FeedSubmissionId
+                        6726206882
+                    FeedType
+                        _POST_PRODUCT_PRICING_DATA_
+                    SubmittedDate
+                        2013-10-31T14:03:18Z
+                    FeedProcessingStatus
+                        _SUBMITTED_
+            ResponseMetadata
+                RequestId
+                    b2a8d2fc-6ed7-4b3c-9642-df8e2a0a4506
+            ResponseHeaderMetadata: RequestId: b2a8d2fc-6ed7-4b3c-9642-df8e2a0a4506, ResponseContext: jjKq7zAsUVQW68msziWcn5B90HISL2B3AdFNS69WoUZtblnM+s2JvyVq5m2qHtgNPlyUZq0c9xRx N3qhI5aDo0BLlNCzKyv+,kdqXgiMpwlkczQlrGZAm/u1Y2+P4Ilxe3UEJ4HHZq1vDD5jam0r/L2x5KNdYZwCIgfWtHx/3hpBg 91VacV0iWQ==, Timestamp: 2013-10-31T14:03:18.213Z

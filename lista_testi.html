@@ -1,0 +1,487 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<title>Il Passalibro - Area Convenzioni Scolastiche | I Tuoi Libri.</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+ var url = location.hash;
+ var cust_id=url.replace( /^#/, '' );
+ $(".tot_products_qty").html('<img src="images/passalibro/ajax-loader.gif"/>');
+ $(".tot_products_price").html('<img src="images/passalibro/loading_price.gif"/>');
+ $(".sceltaIstituto").html(sessionStorage.getItem("NOME_ISTITUTO")+" <br> Classe/Sezione: "+sessionStorage.getItem("CLASSE")+" / "+sessionStorage.getItem("SEZIONE"));
+ $("#checkout").addClass("ui-disabled");
+        
+		$.mobile.showPageLoadingMsg("a","Carico la lista libri..");		
+		$.ajax({ url: "convenzioni_acquisti.php",
+		  type: "POST",
+		  cache: false,
+		  data:  {
+			  action:"getListaTesti", 
+			  customer_id: sessionStorage.getItem("CUSTOMER_ID"),
+			  cod_scuola: sessionStorage.getItem("COD_SCUOLA")
+			  },
+		  success: function(data) {
+			  $("#table_products > tbody").html(data).trigger( "create" );
+			  // totale prezzo nel carrello
+			  	  $.ajax({ url: "convenzioni_acquisti.php",
+					type: "POST",
+					data:  {
+						action:"getBasketTotalPrice",
+						customer_id: sessionStorage.getItem("CUSTOMER_ID")
+						},
+					success: function(data) {
+						$(".tot_products_price").html(data);
+						sessionStorage.setItem("TOTAL_PRICE",$.trim(data));
+						$("#checkout").removeClass("ui-disabled");
+						},
+					error: function(response, error) {
+						console.log(error);
+						}
+				  }); 
+				  //totale quantità nel carrello
+				  $.ajax({ url: "convenzioni_acquisti.php",
+					  type: "POST",
+					  data:  {
+						  action:"getBasketTotalQty",
+						  customer_id: sessionStorage.getItem("CUSTOMER_ID")
+						  },
+					  success: function(data) {
+						  $(".tot_products_qty").html(data);
+						  },
+					  error: function(response, error) {
+						  console.log(error);
+						  }
+				  });
+			  $.mobile.hidePageLoadingMsg();
+			  },
+		  error: function(response, error) {
+			  console.log(error);
+		  }
+	  });
+	  
+  $(".logoff").click(function(){
+		sessionStorage.removeItem("CUSTOMER_ID");
+		$(".logoff").addClass("ui-disabled");
+		document.location.href ='convenzioni_acquisti.html#'+sessionStorage.getItem("ISTITUTO");
+  });
+
+  $(".lnkDatiScuola").attr("href","convenzioni_acquisti.html#"+sessionStorage.getItem("ISTITUTO"));
+  $(".lnkElencoLibri").attr("href","lista_testi.html#"+sessionStorage.getItem("CUSTOMER_ID"));
+
+	$("#table_products").on('click', '.btnIncrement',function(e){
+        var par = $(this).parent().parent(); //tr
+        var tdQta = par.children("td:nth-child(6)"); //sesta td
+		var tdPrice = par.children("td:nth-child(5)"); //quinta td
+		var tdBasketId = par.children("th:nth-child(1)"); //prima td
+		var basketIdVal = tdBasketId.children(':nth-child(2)').val(); //input BasketId value
+		var basketPriceVal = tdPrice.children(':nth-child(1)').val(); //input price value
+        var inputQta = tdQta.children().children(); //input qta 
+        var oldQta = tdQta.children().children().val(); //input value qta
+        if (oldQta < 3) {
+            inputQta.val(++oldQta);
+			$(".tot_products_qty").html('<img src="images/passalibro/ajax-loader.gif"/>');
+			$("#checkout").addClass("ui-disabled");
+			$.ajax({ url: "convenzioni_acquisti.php",
+			  type: "POST",
+			  data:  {
+				  action:"updateBasketQty", 
+				  qta: inputQta.val(),
+				  basketId: basketIdVal,
+				  customer_id:sessionStorage.getItem("CUSTOMER_ID")
+				  },
+			  success: function(data) {				  
+				  $(".tot_products_price").html('<img src="images/passalibro/loading_price.gif"/>');
+					// aggiorno totale qta
+					$.ajax({ url: "convenzioni_acquisti.php",
+					  type: "POST",
+					  data:  {
+						  action:"getBasketTotalQty", 
+						  customer_id:sessionStorage.getItem("CUSTOMER_ID")
+						  },
+					  success: function(data) {
+						  $(".tot_products_qty").html(data);
+						  $("#checkout").removeClass("ui-disabled");
+						  },
+					  error: function(response, error) {
+						  console.log(error);
+					  }
+					});
+					//aggiorno il totale prezzo
+					$.ajax({ url: "convenzioni_acquisti.php",
+					  type: "POST",
+					  data:  {
+						  action:"getBasketTotalPrice", 
+						  customer_id:sessionStorage.getItem("CUSTOMER_ID")
+						  },
+					  success: function(data) {
+						  $(".tot_products_price").html(data);
+						  $("#checkout").removeClass("ui-disabled");
+						  sessionStorage.setItem("TOTAL_PRICE",$.trim(data));
+						  },
+					  error: function(response, error) {
+						  console.log(error);
+					  }
+					});
+				  },
+			  error: function(response, error) {
+				  console.log(error);
+			  }
+		  });		 		
+            if (oldQta == 1) {
+               par.children("td:nth-child(9)").empty();
+            }
+        }
+    });
+
+	$("#table_products").on('click', '.btnDecrement',function(e){
+        var par = $(this).parent().parent(); //tr
+        var tdQta = par.children("td:nth-child(6)");
+		var tdPrice = par.children("td:nth-child(5)"); //quinta td
+		var tdBasketId = par.children("th:nth-child(1)"); //prima td
+		var basketIdVal = tdBasketId.children(':nth-child(2)').val(); //input BasketId value
+		var basketPriceVal = tdPrice.children(':nth-child(1)').val(); //input price value
+        var inputQta = tdQta.children().children();
+        var oldQta = tdQta.children().children().val();
+        if (oldQta > 0) {
+            inputQta.val(--oldQta);
+			$(".tot_products_qty").html('<img src="images/passalibro/ajax-loader.gif"/>');
+			$("#checkout").addClass("ui-disabled");
+			$.ajax({ url: "convenzioni_acquisti.php",
+			  type: "POST",
+			  data:  {
+				  action:"updateBasketQty",
+				  qta: inputQta.val(),
+				  basketId: basketIdVal,
+				  customer_id:sessionStorage.getItem("CUSTOMER_ID")
+				  },
+			  success: function(data) {
+				  
+				  $(".tot_products_price").html('<img src="images/passalibro/loading_price.gif"/>');
+				  
+				  // aggiorno totale qta
+				  $.ajax({ url: "convenzioni_acquisti.php",
+					type: "POST",
+					data:  {
+						action:"getBasketTotalQty", 
+						customer_id:sessionStorage.getItem("CUSTOMER_ID")
+						},
+					success: function(data) {
+						$(".tot_products_qty").html(data);
+						$("#checkout").removeClass("ui-disabled");
+						},
+					error: function(response, error) {
+						console.log(error);
+					}
+				  });
+				  //aggiorno il totale del prezzo
+				  $.ajax({ url: "convenzioni_acquisti.php",
+					type: "POST",
+					data:  {
+						action:"getBasketTotalPrice", 
+						customer_id:sessionStorage.getItem("CUSTOMER_ID")
+						},
+					success: function(data) {
+						$(".tot_products_price").html(data);
+						$("#checkout").removeClass("ui-disabled");
+						sessionStorage.setItem("TOTAL_PRICE",$.trim(data));
+						},
+					error: function(response, error) {
+						console.log(error);
+					}
+				});		  
+				  },
+			  error: function(response, error) {
+				  console.log(error);
+			  }
+		  });
+            if (oldQta == 0) {
+                par.children("td:nth-child(9)").html('<p style="color: red">Rimosso dal carrello!</p>');
+            }
+        }
+    });
+	
+	$( "#checkoutPage" ).on( "pagebeforeshow", function( event ) { 
+	  $("#products_summary > tbody").html("");
+	  $("#table_products > tbody > tr").each(function(index, element) {
+		  if( $(this).children("td:nth-child(6)").children().children().val() > 0 ){
+		  	var qta_summary=$(this).children("td:nth-child(6)").children().children().val();
+		  	var title_summary=$(this).children("td:nth-child(2)").text();
+			var price_summary=$(this).children("td:nth-child(5)").children().children().val().replace(",",".");
+			$("#products_summary > tbody").append("<tr><td>"+qta_summary+"</td><td>"+title_summary+"</td><td>"+(parseFloat(price_summary)*qta_summary).toFixed(2)+"</td></tr>");
+		  }
+	  });
+	  
+	  $.ajax({ 
+	    url: "convenzioni_acquisti.php",
+		type: "POST",
+		data:  {
+			action:"getHtmlFormBank",
+			customer_id: sessionStorage.getItem("CUSTOMER_ID"),
+			total_price: sessionStorage.getItem("TOTAL_PRICE").replace(",","")
+			},
+		success: function(data) {
+			$("#wrapper_bank_form").html(data).trigger("create");
+			$("input[name=importo]").val(sessionStorage.getItem("TOTAL_PRICE").replace(",",""));
+			console.log(data);
+			},
+		error: function(response, error) {
+			console.log(error);
+			}
+	  });
+	  
+	  if(parseInt(sessionStorage.getItem("TOTAL_PRICE")) < 100 ){ 
+		  $("#deposit").slider("disable"); 
+		  $("#deposit_value").addClass("ui-disabled");
+	  } else { 
+		  $("#deposit").slider("enable"); 
+	  }
+	  
+	  $("#deposit").change(function(){
+		  if( $(this).val() == 1 ) {
+			  $("#deposit_value").removeClass("ui-disabled");
+			  $("#tdb1").addClass("ui-disabled");
+		  }else{
+			  $("#deposit_value").addClass("ui-disabled");
+			  $("#tdb1").removeClass("ui-disabled");
+		  }
+	  });
+	  
+	  $('#deposit_value').on('blur', function() {
+        if( !parseFloat($(this).val()) || parseInt($(this).val()) < 100){
+			alert("ERRORE: Inserisci un importo corretto nel campo acconto. Importo minimo €.100,00");
+			}else if(parseInt($(this).val()) > parseInt(sessionStorage.getItem("TOTAL_PRICE"))){
+			alert("ATTENZIONE: L'acconto inserito supera il totale");
+			}else{
+				$("#tdb1").removeClass("ui-disabled");
+				$.ajax({ 
+					url: "convenzioni_acquisti.php",
+					type: "POST",
+					data:  {
+						action:"getHtmlFormBank",
+						customer_id: sessionStorage.getItem("CUSTOMER_ID"),
+						total_price: $(this).val().replace(",",".")*100
+						},
+					success: function(data) {
+						$("#wrapper_bank_form").html(data).trigger("create");
+						$("input[name=importo]").val($(this).val().replace(",","").replace(".",""));
+						console.log(data);
+						},
+					error: function(response, error) {
+						console.log(error);
+						}
+				  });				
+			}
+      });	  		
+	});
+	
+	$( "#success" ).on( "pageshow", function( event ) {
+		alert("Ordine Inoltrato con successo!");		
+		});	
+	
+
+});
+</script>
+</head>
+<body>
+<div data-role="page" data-theme="c" id="elencoLibri">
+  <div data-role="header" data-theme="c" data-position="fixed"> <img align="left" src="images/store_logo.png">
+      <p class="ui-btn-right ui-bar-e ui-corner-all ui-responsive" style="padding:5px">
+      Sono presenti <span class="tot_products_qty" >n</span> libri nella Lista. 
+      <br>
+      Totale: €.<span class="tot_products_price" >#</span>       
+      </p>
+    <div data-role="navbar" data-grid="c">
+      <ul>
+        <li><a href="#" data-ajax="false" data-theme="a" class="lnkDatiScuola">Dati Scuola</a></li>
+        <li><a class="ui-disabled" data-theme="a">Accedi/Registrati</a></li>
+        <li><a href="#" data-theme="a" class="ui-btn-active ui-state-persist">Elenco Libri</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar -->
+  </div>
+  <!-- /header -->
+        <div data-role="content">
+            <div class="ui-grid-solo">
+                <div class="ui-block-a"><p><br><br></p></div>
+            </div>
+            <table data-role="table" id="table_products" data-mode="reflow" class="ui-responsive table-stripe">
+                <thead>
+                    <tr class="ui-bar-d">
+                        <th data-priority="1"></th>
+                        <th data-priority="persist">Titolo</th>
+                        <th data-priority="2"></th>
+                        <th data-priority="3">Isbn</th>
+                        <th data-priority="4">Prezzo(€)</th>
+                        <th data-priority="5">Q.tà</th>
+                        <th data-priority="6"></th>
+                        <th data-priority="7"></th>
+                        <th data-priority="8"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <p style="float:right"><a data-theme="b" href="#checkoutPage" id="checkout" data-role="button" data-inline="true" data-icon="arrow-r" class="ui-btn-right">Continua</a></p>
+        </div>
+        <!-- /content -->
+        <div data-role="footer" data-position="fixed">
+             <h4>Credits: <a href="http://www.agenziaperilweb.it" target="_blank">Agenzia per il web.it</a></h4>    
+               <a data-theme="e" href="#" class="ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete">Esci</a>
+               <p class="ui-btn-right sceltaIstituto"></p>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->    
+<div data-role="page" data-theme="c" id="checkoutPage">
+  <div data-role="header" data-theme="c" data-position="fixed"> <img align="left" src="images/store_logo.png">
+      <p class="ui-btn-right ui-bar-e ui-corner-all ui-responsive" style="padding:5px">
+      Sono presenti <span class="tot_products_qty" >n</span> libri nel carrello. 
+      <br>
+      Totale: €.<span class="tot_products_price" >#</span>
+      </p>
+    <div data-role="navbar" data-grid="c">
+      <ul>
+        <li><a href="#" data-ajax="false" data-theme="a" class="lnkDatiScuola">Dati Scuola</a></li>
+        <li><a class="ui-disabled" data-theme="a">Accedi/Registrati</a></li>
+        <li><a href="#" data-rel="back" data-theme="a" >Elenco Libri</a></li>
+        <li><a href="#" data-theme="a" class="ui-btn-active ui-state-persist">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /header -->
+        <div data-role="content">
+			<div class="ui-grid-a ui-responsive">
+                <div class="ui-block-a">
+                	<div class="ui-bar">
+                        <div class="ui-bar ui-bar-c ui-corner-all">
+                        Riepilogo Ordine:
+                        <table data-role="table" id="products_summary" data-mode="reflow" class="ui-responsive table-stroke">
+                            <thead>
+                              <tr>
+                                <th data-priority="1"></th>
+                                <th data-priority="persist"></th>
+                                <th data-priority="2"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                      </table>
+                      </div>                    
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                	<div class="ui-bar">
+                      <ul data-role="listview" data-inset="true">
+                          <li data-role="fieldcontain">
+                              <label for="deposit">Vuoi dare un acconto?</label>
+                              <select name="deposit" id="deposit" data-role="slider" data-mini="true">
+                                  <option value="0" selected="">No</option>
+                                  <option value="1" >Si</option>
+                              </select>
+                          </li>
+                          <li data-role="fieldcontain">
+                            <label for="deposit_value">Specifica l'importo  (minimo €.100,00):</label>
+                            <input type="text" name="deposit_value" id="deposit_value" placeholder="Importo per l'acconto" value="" class="ui-disabled">
+                          </li>
+                        </ul>
+                        <span style="float:right" id="wrapper_bank_form"></span>
+                    </div>
+                </div>
+            </div><!-- /grid-a -->
+        </div>
+        <!-- /content -->
+        <div data-role="footer" data-position="fixed">
+             <h4>Credits: <a href="http://www.agenziaperilweb.it" target="_blank">Agenzia per il web.it</a></h4>
+             <a data-theme="e" type="submit" href="#" class="ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete">Esci</a>
+             <p class="ui-btn-right sceltaIstituto"></p>             
+        </div>
+        <!-- /footer -->
+</div>
+<!-- /page -->
+
+<div data-role="page" data-theme="c" id="unSuccess">
+  <div data-role="header" data-theme="c" data-position="fixed"> <img align="left" src="images/store_logo.png">
+      
+    <div data-role="navbar" data-grid="c">
+      <ul>
+        <li><a href="#" data-ajax="false" data-theme="a" class="lnkDatiScuola">Dati Scuola</a></li>
+        <li><a class="ui-disabled" data-theme="a">Accedi/Registrati</a></li>
+        <li><a href="#" data-ajax="false" data-theme="a" class="lnkElencoLibri">Elenco Libri</a></li>
+        <li><a class="ui-disabled" data-theme="a">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /header -->
+        <div data-role="content">
+			<div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <div class="ui-bar ui-bar-e ui-corner-all">
+                        <h1 style="color:#900">Ci sono stati errori durante il pagamento.</h1>
+                        <p>
+                         Il tuo carrello verrà mantenuto attivo solo per un'ora dopo aver effettuato il logout.<br>
+                         In ogni caso il tuo account risulta già registrato sul nostro sistema. 
+                         Pertanto siamo lieti di invitarti a completare l'acquisto con noi. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /content -->
+        <div data-role="footer" data-position="fixed">
+             <h4>Credits: <a href="http://www.agenziaperilweb.it" target="_blank">Agenzia per il web.it</a></h4>
+               <a data-theme="e" type="submit" href="#" class="ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete">Esci</a>
+        </div>
+        <!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<div data-role="page" data-theme="c" id="success">
+  <div data-role="header" data-theme="c" data-position="fixed"> <img align="left" src="images/store_logo.png">
+     <div data-role="navbar" data-grid="c">
+      <ul>
+        <li><a href="#" data-ajax="false" data-theme="a" class="lnkDatiScuola">Dati Scuola</a></li>
+        <li><a data-theme="a" class="ui-disabled">Accedi/Registrati</a></li>
+        <li><a data-theme="a" class="ui-disabled">Elenco Libri</a></li>
+        <li><a data-theme="a" class="ui-disabled">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /header -->
+        <div data-role="content">
+			<div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <div class="ui-bar ui-bar-d ui-corner-all">
+                        <h1>Il tuo ordine è stato inoltrato con successo!</h1>
+                        <p>
+                          I prodotti arriveranno a destinazione entro 2-5 giorni lavorativi.<br>
+                          Puoi vedere la cronologia dei tuoi ordini accedendo a <a href="http://www.passalibro.it">www.passalibro.it.</a> nella pagina 'Il mio account' e cliccando sopra 'Cronologia'.<br>
+                          Comunica qualsiasi problema all' amministratore.<br><br>
+                           Grazie per aver acquistato on-line con noi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /content -->
+        <div data-role="footer" data-position="fixed">
+             <h4>Credits: <a href="http://www.agenziaperilweb.it" target="_blank">Agenzia per il web.it</a></h4>
+             <a data-theme="e" type="submit" href="#" class="ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete" >Esci</a>
+             <p class="ui-btn-right sceltaIstituto"></p>
+        </div>
+        <!-- /footer -->
+</div>
+<!-- /page -->
+</body>
+</html>

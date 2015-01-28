@@ -1,0 +1,10 @@
+/* horinaja default */
+.horinaja ul{position:relative;}
+.horinaja ul li{background:transparent;display:block;top:0;}
+/* horinaja pagination */
+ol.horinaja_pagination{height:40px;margin: 0 auto;position:relative;background:transparent;padding:0 0 0 0;clear:both;}
+ol.horinaja_pagination li{float:left;height:40px;display:block;}
+ol.horinaja_pagination li a{height:40px;display:block;background: center url('../images/passalibro/btn-iphone-black.png') no-repeat !important;float:left;color: white;font-weight:bold;text-align:center;
+font-size:12px;padding:3px 0 0 0; cursor:pointer;}
+.alignleft { float: left; padding: 25px 25px 25px 0; }
+.alignright { float: right; padding: 15px 0 15px 15px; }

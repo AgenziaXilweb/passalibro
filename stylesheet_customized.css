@@ -1,0 +1,175 @@
+/*
+  $Id: stylesheet.css,v 1.56 2003/06/30 20:04:02 hpdl Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+.header{background: url("images/header.gif") no-repeat;width:766px;height:162px;}
+.header_pad{background: url("images/header_pad.gif") no-repeat;width:770px;height:48px;}
+.footer {background: url("images/footer.gif") no-repeat; width:766px; height:51px;}
+.messageBox { font-family: tahoma,Helvetica,Sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+img {border:0px;}
+/* colors */
+BODY{background-color: #EAF7E8;color:#111; font-family:tahoma; font-size:11px}
+td{font-family:tahoma; font-size:11px}
+#content{background:#ffffff; width:550px; margin:0px 0 0 0; }
+#content .top{}
+#content .bottom{}
+
+.shoppad{background: url("images/shop_pad.gif") no-repeat;width:206px;height:68px;}
+
+
+.goods{background: url("images/goods.gif") no-repeat;width:290px;height:228px;}
+.zag{background: url("images/item_zag.gif") no-repeat;width:270px;height:32px;}
+
+.main_top{background: url("images/main_top.gif") top no-repeat;}
+.main_bottom{background: url("images/main_bottom.gif") left repeat-y;width:606px;}
+
+.left_top{padding:0 18px 0 16px}
+
+
+.spec_middle{background: #E6E7DF url("images/spec_middle.gif")  repeat-y; width:216px; }
+
+
+div.side{padding:10px 0 15px 44px;}
+#footer{color:#4E4D4D}
+.dots{background: url(images/dots.gif) repeat-x left; height:1px}
+#verx{background:transparent url(images/verx.gif) no-repeat scroll 50% 50%;}
+#verx td{color:#f3f3f3;}
+.product{background:#222824 url(images/name.gif) no-repeat scroll 50% 50%;}
+
+.product a{color:white;}
+A{color:#111;}
+#footer,#footer A{color:#4E4D4D;}
+#footer .home{color:#A30045;font-weight:bold;}
+
+.productListing-odd td{border-bottom:1px dotted #B2B2B2;}
+.productListing-even td{border-bottom:1px dotted #B2B2B2;}
+.productListing td{padding:5px}
+.productListing td.dots{padding:0}
+/* fonts: style variant weidth size family */
+#cart a,#cart{font:normal normal normal 11px tahoma,Helvetica,Sans-serif; color:#7A7B7C}
+#cart b{color:#100B07;}
+#footer, A{font:11px Arial, tahoma, verdana;}
+.price{font:normal normal bold 16px tahoma,Helvetica,Sans-serif;}
+#content .head_table td{font:normal normal bold 13px tahoma,Helvetica,Sans-serif; color:#424441}
+#verx td{font:normal normal bold 11px tahoma,Helvetica,Sans-serif;}
+.main,
+.stockWarning,
+.scecials{font:normal normal normal 11px tahoma,Helvetica,Sans-serif;}
+.boxText{font:normal normal normsal 12px tahoma,Helvetica,Sans-serif;}
+.smallText {font:normal normal normal 11px tahoma,Helvetica,Sans-serif;}
+select,input,textarea,#content td{font:normal normal normal 12px tahoma,Helvetica,Sans-serif;}
+/* positions */
+FORM, TABLE{margin:0;}
+#verx{vertical-align:middle;text-align:center;height:54px;}
+.product{height:33px;padding:0 16px;}
+.head_table td{vertical-align:middle; padding:0px 0 0 25px; text-transform:none; color:#000;font-family:arial;font-size:18px; text-transform:uppercase}
+.descrip{padding:10px;}
+.price{padding-bottom:32px;}
+/* text */
+
+a.menu_text_now{color:#989898; text-decoration:none; line-height:21px;}
+a.menu_text_now:hover{text-decoration:underline}
+a.menu_all{font-weight:bold; color:#FFF; line-height:21px; text-decoration:none;}
+a.menu_all:hover{text-decoration:underline;}
+.price{text-align:center;}
+TEXTAREA{overflow: auto;width:349px}
+.price .old{text-decoration:line-through;color:#3E3E3E}
+a{text-decoration:none;}
+.head_table{text-transform:lowercase;}
+/* sizes */
+SELECT {width:145px;}
+
+
+#content td.checkoutBarCurrent{font:normal normal normal 10px tahoma,Helvetica,Sans-serif;}
+#content td.checkoutBarTo{font:normal normal normal 10px tahoma,Helvetica,Sans-serif;color:#333;}
+#content .checkoutBarFrom{font:normal normal normal 10px tahoma,Helvetica,Sans-serif;}
+.submit{background:none;border:none;color:white;font-weight:bold;padding:2px;}
+.ban a img{float:left;}
+#left td {margin:0;}
+.head_table{height:65px;}
+
+.form_cur{width:116px; height:20px; line-height:10px;}
+.fh1{color:#100B07; font-family:tahoma, verdana, arial; font-size:11px;}
+.column_right1{background:url(images/right_top.gif) top no-repeat;}
+.column_right2{background:url(images/right_bottom.gif)  bottom no-repeat;}
+
+/*boxes*/
+
+/*box specials*/
+#box_specials_heading{margin:20 0 0 20px;}
+#box_specials{ margin:7px 20px 10px  22px; color:#E43A0D; font-family:tahoma, verdana; font-size:11px; line-height:14px;}
+#box_specials a{color:#E43A0D; text-transform:uppercase; text-decoration:underline}
+#box_specials a:hover{text-decoration:none;}
+#box_specials_price{float:left;font-family:tahoma; font-size:14px; color:#595959; margin:12px 0 10 10px; font-weight:bold; text-decoration:underline;}
+#box_specials_new_price{float:left;font-family:tahoma; font-size:17px; color:#E43A0D; margin:0px 0px 0 10px; text-decoration:underline;}
+/*box what's new*/
+#box_whats_new_heading{}
+#box_whats_new{margin:7px 0 20px 26px;}
+/*box information*/
+#box_information_heading{}
+#box_information{margin:7px 0 10px 28px;}
+#box_information a{color:#0C0C0C; font-weight:bold; text-decoration:underline; line-height:21px; font-size:11px; background:url(images/item2.gif) no-repeat left; padding:0 0 0 13px;}
+#box_information a:hover{text-decoration:none;}
+/*box bestsellers*/
+
+.box_whos_heading{font-family:arial;font-size:12px;font-weight:bold;color:#E8E0D3}
+.box_whos{font-family:tahoma;font-size:11px;color:#FEA648}
+#box_bestsellers_heading{margin:20 0 0 20px;}
+#box_bestsellers{margin:7px 0 10px 22px;}
+#box_bestsellers a{color:#010101; line-height:21px; font-size:11px; background:url(images/item2.gif) no-repeat left; padding:0 0 0 13px; font-family:verdana; font-size:11px;}
+#box_bestsellers a:hover{text-decoration:underline;}
+/*box categories*/
+#box_categories_heading{margin:20px 0 0 20px;}
+#box_categories{margin:7px 0 10px 22px;}
+#box_categories a{font-family:verdana;font-size:11px;color:#010101; text-decoration:none; line-height:21px; background:url(images/item.gif) no-repeat left; padding: 0 0 0 13px;}
+#box_categories a:hover{text-decoration:underline;}
+#box_categories a.now{text-decoration:none;}
+#box_categories a.now:hover{text-decoration:underline;}
+#box_categories a.menu_all{font-family:verdana;font-size:12px;color:#010101; line-height:21px; text-decoration:none;}
+#box_categories a.menu_all:hover{text-decoration:underline;}
+/*box search*/
+.search_input{width:170px; height:20px; border-top:solid #404040 1px; border-left:solid #404040 1px; border-right:solid #D4D0C8 1px; border-bottom:solid #D4D0C8 1px; font-weight:bold; padding:1px; color:#262B2D; }
+#search{background:url(images/bg_search.gif) no-repeat; height:50px; vertical-align:top;}
+
+/*boxes end*/
+.item_zag a{font-family:arial; font-size:14px; color:#111; text-transform:uppercase; line-height:30px; font-weight:bold;}
+.item_zag a:hover{text-decoration:underline;}
+ .item_zag_main a{font-family:arial; font-size:14px; color:#373737; line-height:30px;}
+ .item_zag a, .zag_main {font-family:arial; font-size:14px; color:#111; line-height:30px;}
+.item_zag_main a:hover{text-decoration:underline;}
+.item_des{color:#3E3E3E; font-family:arial; font-size:14px; text-transform:uppercase;}
+.zag_pr_text, .price, .item_price{height:26px; font-family: verdana, arial; font-size:24px; color:#3E3E3E; padding:0 13px 0 0; font-weight:bold;}
+.add_cart{float:left; margin:0 3px 0 0;}
+.det{float:right;}
+
+.headertext{font-family:verdana;font-size:12px;color:#fff;font-weight:bold}
+.headertext a{font-family:verdana;font-size:11px;color:#fff;font-weight:bold; line-height:14px;}
+.logintext { font-family:arial; font-size:12px; font-weight:bold; color:#000000}
+.logintext a{ font-family:arial; font-size:12px; font-weight:bold; color:#000000}
+.inp_wi input,.inp_wi select{width:180px}
+.td_wi{width:170px;text-align:right;}
+.pageHeading{  height:35px; vertical-align:top;}
+.pageHeading2{  height:35px; vertical-align:top;}
+.pageHeading3{  height:35px; vertical-align:top; margin-right:15px; text-align:center}
+.lefttext{font-family:arial;font-size:18px;color:#588707;}
+.footertext, .footertext a{color:#000; font-family:verdana; font-size:11px;}
+.footer_main{font-family:verdana; font-size:12px; color:#000; font-weight:bold}
+.fieldvalue select, .fieldvalue input{width:180px;}
+.fieldKey{text-align:right}
+
+#left_middle{background:url(images/left_middle.gif) left repeat-y;}
+#left_bottom{background:url(images/left_bottom.gif) left bottom no-repeat;}
+
+.number_up{background:url(images/number_up.gif) left center no-repeat;width:606px;height:42px;}
+.f_separator{padding:0 8px;color:#FBF3D3;}
+#shop_items{color:#D4FF34;}
+/*.item_manuf, .item_date_add{color:#3E3E3E;}*/
+/*.head_table{background:transparent url(images/zag_pr_p.gif) 5px 5px no-repeat ;color:#fff;}*/

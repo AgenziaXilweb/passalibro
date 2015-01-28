@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<title>Il Passalibro - Area Convenzioni Scolastiche</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {	
+	
+	var hash = location.hash;
+	var istituto_convenzionato=hash.replace( /^#/, '' );
+	document.title = 'Il Passalibro - Area Convenzioni Scolastiche | ' + ( istituto_convenzionato || 'Nessuna Convenzione.' ) + '.';
+	sessionStorage.setItem("ISTITUTO", istituto_convenzionato);
+	$(".lnkDatiScuola").attr("href","convenzioni_acquisti.html#"+sessionStorage.getItem("ISTITUTO"));
+	
+	if(sessionStorage.getItem("CUSTOMER_ID")){
+		$("#btnSignUp").attr("href","lista_testi.html#"+sessionStorage.getItem("CUSTOMER_ID"));
+		$("#btnSignUp").attr("data-ajax","false");
+		$("#btnSignUp").attr("data-rel","external");
+		$(".logoff").removeClass("ui-disabled");
+		$(".logoff").attr("href","convenzioni_acquisti.html#"+sessionStorage.getItem("ISTITUTO"));
+	}	
+
+	$(".logoff").click(function(){
+		sessionStorage.removeItem("CUSTOMER_ID");
+		$("#btnSignUp").attr("href","lista_testi.html#datiAnagrafici");
+		$("#btnSignUp").attr("data-ajax","true");
+		$(".logoff").addClass("ui-disabled");
+	});
+	
+	$.ajax({ url: "convenzioni_acquisti.php",
+		type: "POST",
+		data:  {
+			action:"getIstituto", 
+			istituto: sessionStorage.getItem("ISTITUTO")
+			},
+		success: function(data) {
+			$("#selectIstituto").html(data).selectmenu('refresh');
+			$("#selectCLSZ").selectmenu( "disable" );
+			},
+		error: function(response, error) {
+			$("#selectIstituto").html("Impossibile caricare .");
+		}
+	});	
+	
+	$("#selectIstituto").change(function() {
+		var codScuola = $("#selectIstituto option:selected").val();
+		sessionStorage.setItem("NOME_ISTITUTO", $("#selectIstituto option:selected").text());
+		$("#btnSignUp").addClass("ui-disabled");
+
+		$.ajax({ url: "convenzioni_acquisti.php",
+		  type: "POST",
+		  data:  {
+			  action: "getClassiSedi",
+			  cod_scuola: codScuola
+			  },
+		  success: function(data) {
+			  $("#selectCLSZ").selectmenu( "enable" );
+			  $("#selectCLSZ").html(data).selectmenu('refresh');
+			  
+			  },
+		  error: function(response, error) {			  
+			  $("#selectCLSZ").html("Impossibile caricare .");
+		  }
+		});
+	});
+	
+	$("#selectCLSZ").change(function() {
+		sessionStorage.setItem("COD_SCUOLA",$(this).val());
+		var ics = $(this).val().split(":");
+		sessionStorage.setItem("CLASSE",ics[1]);
+		sessionStorage.setItem("SEZIONE",ics[2]);
+		$(".sceltaIstituto").html(sessionStorage.getItem("NOME_ISTITUTO")+" <br> Classe/Sezione: "+sessionStorage.getItem("CLASSE",ics[1])+" / "+sessionStorage.getItem("SEZIONE",ics[2]));
+		$("#btnSignUp").removeClass("ui-disabled");
+	});
+	
+	$("#signUpCustomer").validate({
+		rules: {
+			firstname:{
+				required: true, 
+				minlength:2, 
+				maxlength:30
+			}, 
+			lastname:{
+				required: true, 
+				minlength:2, 
+				maxlength:30
+			},
+			street_address:{
+				required: true
+			},
+			city:{
+				required: true
+			},
+			postcode:{
+				required: true
+			},
+			phone_number:{
+				required: true,
+				digits: true
+			},
+			email_address:{
+				required: true,
+				minlength:6,
+				email:true,
+				remote:{
+					url: "convenzioni_acquisti.php",
+					data: { action: "getCheckEmailExist" }
+					}
+			},
+			password:{
+				required: true,
+				minlength: 8
+			},
+			confirm_password:{
+				equalTo: "#password"
+			}
+		},
+		
+		messages: {
+			firstname:{
+				required: "Inserisci il tuo nome.",
+				minlength: "Nome troppo corto minimo 2 caratteri.",
+				maxlength: "Nome troppo lungo massimo 30 caratteri."
+			},
+			lastname:{
+				required: "Inserisci il tuo cognome.",
+				minlength: "Cognome troppo corto minimo 2 caratteri.",
+				maxlength: "Cognome troppo lungo massimo 30 caratteri."
+			},
+			street_address:{
+				required: "Inserisci l'indirizzo."
+			},
+			city:{
+				required: "Inserisci la città."
+			},
+			postcode:{
+				required: "Inserisci il CAP."
+			},
+			phone_number:{
+				required: "Inserisci un recapito telefonico",
+				digits: "Inserire solo numeri."
+			},
+			email_address:{
+				required: "Inserisci una email.",
+				minlength: "Email troppo corta minimo 6 caratteri",
+				email: "Formato email non valido.",
+				remote: "esiste già." 
+			},
+			password:{
+				required: "Inserisci una password.",
+				minlength: "Minimo 8 caratteri."
+			},
+			confirm_password:{
+				equalTo: "Le password non corrispondono."
+			}
+		},
+		submitHandler: function(form) {
+			
+		  $.ajax({ 
+		  	url: "convenzioni_acquisti.php",
+		  	type: "POST",
+		  	data: "action=getCreateAccount&"+$("#signUpCustomer").serialize()+"&cod_scuola="+ sessionStorage.getItem("COD_SCUOLA"),
+			success: function(data) {
+				sessionStorage.setItem("CUSTOMER_ID", $.trim(data));
+				document.location.href ='lista_testi.html#'+sessionStorage.getItem("CUSTOMER_ID");
+			  },
+		  	error: function(response, error) {
+			  console.log(error);
+		  	}
+		  });		  
+        }
+	 });
+	 
+	 $("#loginCustomer").validate({
+	  
+	  rules: {
+		  email_address_login:{
+			  required: true,
+			  email: true,
+			  remote:{
+				url: "convenzioni_acquisti.php",
+				data: { action: "checkEmailNotExist" }
+			  }	  
+		  },
+		  password_login:{
+			  required: true,
+			  remote:{
+				url: "convenzioni_acquisti.php",
+				data: { 
+				  action: "checkAccountExists",
+				  email_login: function(element) {
+                                  return $("#email_address_login").val()
+                               }
+				  }
+			  }
+		  }
+	  },
+	  messages:{
+		  email_address_login:{
+			  required: "Inserisci la tua email",
+			  email: "Formato email non valido.",
+			  remote: "Email inesistente."
+			  },
+		  password_login:{
+			  required: "Inserisci la tua password.",
+			  remote: "Password inesistente"
+			  }
+		  
+		  },
+	 submitHandler: function(form) {
+		  $.ajax({ 
+		  	url: "convenzioni_acquisti.php",
+		  	type: "POST",
+		  	data: "action=customerLogin&cod_scuola="+sessionStorage.getItem("COD_SCUOLA")+"&email_login="+$("#email_address_login").val(),
+		  	success: function(data) {
+				sessionStorage.setItem("CUSTOMER_ID", $.trim(data));
+			    document.location.href ='lista_testi.html#'+sessionStorage.getItem("CUSTOMER_ID");
+			  },
+		  	error: function(response, error) {
+			  console.log(error);
+		  	}
+		  });		  
+        }
+	 });
+	 
+});
+</script>
+
+<style type="text/css">
+.error {
+}
+label.error {
+	font-weight:lighter;
+	font-size:small;
+	color: #C00;
+	text-shadow: 1px 1px 1px #000;
+}
+</style>
+
+</head>
+<body>
+<div data-role="page" data-theme="c" id="datiScuola">
+  <div data-role="header" data-theme="c"> <img align="left" src="images/store_logo.png">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" data-theme="a" class="ui-btn-active ui-state-persist lnkDatiScuola">Dati Scuola</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled" id="lnkDatiAnagrafici">Accedi/Registrati</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled">Elenco Libri</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /header -->
+  
+  <div data-role="content" >
+    <div class="ui-grid-solo">
+      <div>
+        <select name="istituto" id="selectIstituto" data-native-menu="false" data-mini="true">
+        </select>
+        <select name="clsz" id="selectCLSZ" data-native-menu="false" data-mini="true">
+          <option>CLASSE/SEZIONE</option>
+        </select>
+      </div>      
+    </div>
+    <!-- /grid-solo -->
+    <p style="float:right"><a data-theme="b" href="#datiAnagrafici" class="ui-disabled ui-btn-right" data-role="button" data-inline="true" data-icon="arrow-r" id="btnSignUp">Continua</a></p>
+  </div>
+  <!-- /content -->
+  
+  <div data-role="footer" data-position="fixed" data-id="footerbar">
+    <h4>Credits: <a href="http://www.app4web.it" target="_blank">App4Web.it</a></h4>
+    <a data-theme="a" href="#" class="ui-disabled ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete">Esci</a>
+    <p class="ui-btn-right sceltaIstituto"></p>
+  </div>
+  <!-- /footer --> 
+</div>
+<!-- /page -->
+
+<div data-role="page" data-theme="c" id="datiAnagrafici">
+  <div data-role="header" data-theme="c"> <img align="left" src="images/store_logo.png">
+    <div data-role="navbar" data-grid="c">
+      <ul>
+        <li><a href="#" data-theme="a" class="lnkDatiScuola" data-ajax="false">Dati Scuola</a></li>
+        <li><a href="#" data-theme="a" class="ui-btn-active ui-state-persist">Accedi/Registrati</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled">Elenco Libri</a></li>
+        <li><a href="#" data-theme="a" class="ui-disabled">Conferma e Paga</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /header -->
+  <div data-role="content">
+    <div class="ui-grid-a ui-responsive">
+      <div class="ui-block-a">
+        <div class="ui-bar ">
+          <form id="loginCustomer">
+            <ul data-role="listview" data-inset="true">
+              <li class="ui-body ui-body-e">
+                <fieldset class="ui-grid-solo">
+                  <div> ACCEDI: </div>
+                </fieldset>
+              </li>
+              <li data-role="fieldcontain">
+                <label for="email_address_login">Email</label>
+                <input type="email" name="email_address_login" id="email_address_login" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="password_login">Password</label>
+                <input type="password" name="password_login" id="password_login" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li class="ui-body ui-body-a">
+                <fieldset class="ui-grid-solo">
+                  <div>
+                    <button type="submit" data-theme="a" data-mini="true">Accedi</button>
+                  </div>
+                </fieldset>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      <div class="ui-block-b">
+        <div class="ui-bar">
+          <form id="signUpCustomer">
+            <ul data-role="listview" data-inset="true">
+              <li class="ui-body ui-body-e">
+                <fieldset class="ui-grid-solo">
+                  <div> REGISTRATI: </div>
+                </fieldset>
+              </li>
+              <li data-role="fieldcontain">
+                <label for="firstname">Nome</label>
+                <input type="text" name="firstname" id="firstname" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="lastname">Cognome</label>
+                <input type="text" name="lastname" id="lastname" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="street_address">Indirizzo:</label>
+                <input type="text" name="street_address" id="street_address" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="city">Città</label>
+                <input type="text" name="city" id="city" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="postcode">Cap</label>
+                <input type="text" name="postcode" id="postcode" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="phone_number">Telefono</label>
+                <input type="text" name="phone_number" id="phone_number" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain"> Autenticazione: </li>
+              <li data-role="fieldcontain">
+                <label for="email_address">Email</label>
+                <input type="email" name="email_address" id="email_address" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li data-role="fieldcontain">
+                <label for="confirm_password">Conferma password</label>
+                <input type="password" name="confirm_password" id="confirm_password" value="" data-clear-btn="true" data-mini="true">
+              </li>
+              <li class="ui-body ui-body-a">
+                <fieldset class="ui-grid-solo">
+                  <div>
+                    <button type="submit" data-theme="a" data-mini="true">Registrati</button>
+                  </div>
+                </fieldset>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+   <!-- /grid-a --> 
+  </div>
+  <!-- /content -->
+  <div data-role="footer" data-position="fixed" data-id="footerbar">
+    <h4>Credits: <a href="http://www.app4web.it" target="_blank">App4Web.it</a></h4>
+    <a data-theme="a" href="#" class="ui-disabled ui-btn-left logoff" data-role="button" data-inline="true" data-icon="delete">Esci</a>
+    <p class="ui-btn-right sceltaIstituto"></p>
+  </div>
+  <!-- /footer --> 
+</div>
+<!-- /page -->
+
+</body>
+</html>

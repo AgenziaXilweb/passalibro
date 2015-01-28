@@ -1,0 +1,8 @@
+<?php
+define('TEXT_GRAY_TITLE','Admin Notizen Hilfe');
+define('ADMIN_NOTES_TITLE','Admin Notes v2.1');
+define('AUTHOR','<br />Created by: PopTheTop');
+define('TEXT_NOTE','<STRONG><FONT COLOR="RED">Wichtig:</FONT></STRONG><br />Fals Sie nachtr&auml;glich Fragen haben, wenden Sie sich bitte an das osc contributions forum.<br />Forum Thread Thema: <A HREF="http://forums.oscommerce.com/index.php?showtopic=119993" TARGET="_blank"><FONT COLOR="#0000FF">Admin Notes</FONT></A>');
+define('TEXT_IC_ONE','<br /><br /><STRONG>Notiz Title:</STRONG><br />&nbsp;&nbsp;&nbsp;Das ist der Titel der Notiz.<br />&nbsp;&nbsp;&nbsp;Anklicken um die Notiz zu betrachten.<br />&nbsp;&nbsp;&nbsp;Die Maus dar&uuml;ber bewegen um die Kategorie der Notiz zu sehen.<br /><br /><b>Schalter:</b><br />&nbsp;&nbsp;&nbsp;Ein Marker f&uuml;r die Wichtigkeit der Notiz.<br />&nbsp;&nbsp;&nbsp;Anklicken um den Status zu markieren.<br /><br />&nbsp;&nbsp;&nbsp;Bedeutung:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . tep_image(DIR_WS_IMAGES . 'icon_status_red.png', 'Important', 10, 10) . ' = Wichtig<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . tep_image(DIR_WS_IMAGES . 'icon_status_green.png', 'No so important', 10, 10) . ' = nicht so wichtig<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . tep_image(DIR_WS_IMAGES . 'icon_status_yellow.png', 'Caution', 10, 10) . ' = Vorsicht! (im Auge behalten)<br /><br /><STRONG>Einf&uuml;gen</STRONG>:<br />&nbsp;&nbsp;&nbsp;Anklicken um eine neue Notiz zu erstellen.<br /><br />Der Rest ist selbsterkl&auml;rend...');
+define('TEXT_CLOSE_WINDOW','<br /><font color=red><b>Fenster Schlie&szlig;en</b></font>');
+?>

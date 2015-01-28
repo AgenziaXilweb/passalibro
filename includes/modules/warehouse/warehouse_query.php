@@ -1,0 +1,5 @@
+<?php
+    
+    $listing_sql = "select " . $select_column_list . " p.products_ebay, p.products_id, p.manufacturers_id, p.products_price, p.products_used_price, p.products_tax_class_id, pd.products_description, IF(s.status, s.specials_new_products_price, NULL) as specials_new_products_price, IF(s.status, s.specials_new_products_price, p.products_price) as final_price, pm.qta_giacenza_u-pm.soglia_web_u-pm.impegnato_web_u as usato, pm.qta_giacenza_n-pm.soglia_web_n-pm.impegnato_web_n as nuovo, pm.cod_chiave, pm.sede from " . TABLE_PRODUCTS_DESCRIPTION . " pd, " . TABLE_PRODUCTS . " p left join " . TABLE_SPECIALS . " s on p.products_id = s.products_id, " . TABLE_PRODUCTS_TO_CATEGORIES . " p2c, " . MAGAZZINO . " pm WHERE p.products_status = '1' and p.products_id = p2c.products_id and pd.products_id = p2c.products_id and pd.language_id = '" . (int)$languages_id . "' and p2c.categories_id = '" . (int)$current_category_id . "' and p.products_quantity = pm.qta_giacenza_n and p.products_used_quantity = pm.qta_giacenza_u and p.cod_chiave = pm.cod_chiave and pm.sede = " . $dominio['sede'];
+
+?>

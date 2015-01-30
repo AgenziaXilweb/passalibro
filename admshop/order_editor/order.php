@@ -8,6 +8,7 @@
   Copyright (c) 2003 osCommerce
 
   Released under the GNU General Public License
+  prova
 */
 
   class manualOrder {
